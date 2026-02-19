@@ -1,218 +1,174 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>
-   Café com José Leite — Jornal Escolar
-  </title>
-<link href="./CSS/style.css" rel="stylesheet"/>
-<!-- GSAP (core + ScrollTrigger) -->
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js">
-</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="last-updated" content="2026-02-09">
+  <title>Jornal AJL — Jornal Escolar</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  
 </head>
-<body class="is-home">
-<header class="header">
-<div class="container site-nav">
-<a class="brand" href="./index.html">
-     Café com José Leite
-    </a>
-<nav class="menu">
-<a href="./index.html">
-      Início
-     </a>
-<a href="./pages/comunicados.html">
-      Comunicados
-     </a>
-<a href="./pages/eventos.html">
-      Eventos
-     </a>
-<a href="./pages/tempo.html">
-      Tempo
-     </a>
-<a href="./pages/todas-noticias.html">
-      Noticias
-     </a>
-</nav>
-<button aria-label="Abrir menu" class="menu-toggle" id="menuToggle">
-<span class="bars">
-<span>
-</span>
-</span>
-</button>
-</div>
-</header>
-<main class="container">
-<section class="hero">
-<figure>
-<img alt="Em breve teremos novidades" src="./IMG/em-breve-teremos-novidades.png"/>
-</figure>
-<div>
-<div style="color:#796a58;font-weight:700;">
-      JORNAL ESCOLAR — VERSÃO BETA
-     </div>
-<h1>
-      As últimas da EE Prof. Antônio José Leite
-     </h1>
-<p>
-      Notícias feitas pelos alunos, para a comunidade. Acompanhe também comunicados, eventos do Grêmio e a previsão do tempo.
-     </p>
-<p class="mt-2">
-<a class="btn" href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html">
-       Ver matéria em destaque
-      </a>
-</p>
-</div>
-</section>
-<h2 class="section-title">
-    Últimas notícias
-   </h2>
-<p class="section-sub">
-    Produzidas pelos nossos escritores da escola.
-   </p>
-<section class="cards"><article class="card">
-<a class="thumb" href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html">
-<img alt="Imagem da notícia" src="./IMG/rota66_3.jpg"/>
-</a>
-<div class="body">
-<h3><a href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html">Rota 66: Além da velocidade - coordenado pela profª Denise Biella.</a></h3>
-<p>O começo da peça se passa na cidade grande, através de uma corrida na qual conhecemos o Relâmpago McQueen</p>
-<div class="meta">
-<span>Escrito por <strong>@Dino_raaaawr</strong></span>
-<a class="btn" href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html">Ler mais</a>
-</div>
-</div>
-</article><article class="card">
-<a class="thumb" href="./pages/j-se-perguntaram-como-surgiu-o-projeto-de-teatro-jovem-em-cena.html">
-<img alt="Imagem da notícia" src="./IMG/jovem-em-cena.jpg"/>
-</a>
-<div class="body">
-<h3><a href="./pages/j-se-perguntaram-como-surgiu-o-projeto-de-teatro-jovem-em-cena.html">Já se perguntaram como surgiu o projeto de teatro Jovem em Cena?</a></h3>
-<p>Felizmente temos essa resposta, nós do jornal conversarmos com nossas queridas colaboradoras Juliana e Denise que nos contou um pouquinho da história de como tudo aconteceu.</p>
-<div class="meta">
-<span>Escrito por <strong>@kety__vilasboas</strong></span>
-<a class="btn" href="./pages/j-se-perguntaram-como-surgiu-o-projeto-de-teatro-jovem-em-cena.html">Ler mais</a>
-</div>
-</div>
-</article><article class="card">
-<a class="thumb" href="./pages/universit-ria-acusada-de-matar-quatro-pessoas-uma-a-facada-e-as-outras-v-timas-de-envenenamento.html">
-<img alt="Imagem da notícia" src="./IMG/mosaico-serial-killer.gif"/>
-</a>
-<div class="body">
-<h3><a href="./pages/universit-ria-acusada-de-matar-quatro-pessoas-uma-a-facada-e-as-outras-v-timas-de-envenenamento.html">Universitária é acusada de matar quatro pessoas, uma a facada e as outras vítimas de envenenamento.</a></h3>
-<p>Ana Paula Veloso Fernandes, de 36 anos e estudante de Direito, morava em Rio de Janeiro (RJ) e veio para Guarulhos (SP), alugando uma casa de fundo com Marcelo Hari...</p>
-<div class="meta">
-<span>Escrito por <strong>dino_raaaawr</strong></span>
-<a class="btn" href="./pages/universit-ria-acusada-de-matar-quatro-pessoas-uma-a-facada-e-as-outras-v-timas-de-envenenamento.html">Ler mais</a>
-</div>
-</div>
-</article><article class="card">
-<a class="thumb" href="./pages/como-um-iphone-roubado-ajudou-a-pol-cia-a-desbaratar-gangue-acusada-de-enviar-china-mais-de-40-mil-celulares.html">
-<img alt="Imagem da notícia" src="./IMG/iphone.jpg"/>
-</a>
-<div class="body">
-<h3><a href="./pages/como-um-iphone-roubado-ajudou-a-pol-cia-a-desbaratar-gangue-acusada-de-enviar-china-mais-de-40-mil-celulares.html">Como um iPhone roubado ajudou a polícia a desbaratar gangue acusada de enviar à China mais de 40 mil celulares.</a></h3>
-<p>Esta operação foi efetuada em Londres no Reino Unido, a polícia local afirmou que está foi a maior operação de roubos de celulares no último ano.</p>
-<div class="meta">
-<span>Escrito por <strong>kety__vilasboas</strong></span>
-<a class="btn" href="./pages/como-um-iphone-roubado-ajudou-a-pol-cia-a-desbaratar-gangue-acusada-de-enviar-china-mais-de-40-mil-celulares.html">Ler mais</a>
-</div>
-</div>
-</article><article class="card">
-<a class="thumb" href="./pages/poesia-em-meio-ao-caos-quando-o-grito-vira-verso.html">
-<img alt="Imagem da notícia sobre poesia" src="./IMG/poesia.jpg"/>
-</a>
-<div class="body">
-<h3><a href="./pages/poesia-em-meio-ao-caos-quando-o-grito-vira-verso.html">Poesia em meio ao caos: quando o grito vira verso</a></h3>
-<p>Na periferia e nas escolas, jovens usam a poesia para transformar violência, luto e desigualdade em resistência.</p>
-<div class="meta">
-<span>Escrito por <strong>w3b_camilly_</strong></span>
-<a class="btn" href="./pages/poesia-em-meio-ao-caos-quando-o-grito-vira-verso.html">Ler mais</a>
-</div>
-</div>
-</article><article class="card">
-<a class="thumb" href="./pages/invoca-o-do-mal-4.html">
-<img alt="Imagem da notícia" src="./IMG/invocaçao-do-mal.jpg"/>
-</a>
-<div class="body">
-<h3><a href="./pages/invoca-o-do-mal-4.html">Invocação do Mal 4</a></h3>
-<p>Invocação do mal 4 estreou no Brasil em 4 de setembro de 2025. Ele foi dirigido por Michael Chaves, com James Wan e Peter Safran na produção.</p>
-<div class="meta">
-<span>Escrito por <strong>juju13.15_</strong></span>
-<a class="btn" href="./pages/invoca-o-do-mal-4.html">Ler mais</a>
-</div>
-</div>
-</article>
+<body>
+  <div id="siteHeader"></div>
 
-<!-- Card 1 -->
-</section>
-<p class="section-sub" id="siteViews">
-    Visitantes do site: 0
-   </p>
-<p class="section-sub">
-    Sigam nossas redes:
-    <a href="https://instagram.com/poderjovem_pj" rel="noopener" target="_blank">
-     Grêmio
-    </a>
-    •
-    <a href="https://instagram.com/escola_antonio_jose_leite_of" rel="noopener" target="_blank">
-     Escola
-    </a>
-    •
-    <a href="https://instagram.com/cafecomjoseleite" rel="noopener" target="_blank">
-     Jornal &amp; Podcast
-    </a>
-</p>
-<footer class="footer">
-    © 2025 Café com José Leite
-   </footer>
-</main>
-<!-- scripts -->
-<script src="./js/config.js" type="module">
-</script>
-<script src="./js/firebase.js" type="module">
-</script>
-<script src="./js/main.js" type="module">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
-<script>
-   document.documentElement.classList.remove('page-exit');
-document.addEventListener('DOMContentLoaded', ()=>{
-  document.body.insertAdjacentHTML('beforeend','<div class="page-overlay"></div>');
-  if(!window.gsap) return;
-  gsap.registerPlugin(ScrollTrigger);
-  const tl = gsap.timeline({defaults:{ease:'power4.out'}});
-  tl.to('.page-overlay', {y:'-100%', duration:.7, ease:'power4.inOut'}, 0);
-  tl.from('.header', {opacity:0, y:-30, duration:.45}, .1);
-  tl.from('.hero', {opacity:0, y:30, duration:.55}, .15);
-  const cards = gsap.utils.toArray('.cards article');
-  if(cards.length){
-    tl.from(cards, {opacity:0, y: gsap.utils.wrap([-40,40]), rotate: gsap.utils.wrap([-3,3]), scale:.94, filter:'blur(6px)', duration:.55, stagger:{each:.06, from:'random'}}, .25);
-  }
-  gsap.utils.toArray('.reveal, .card').forEach((el)=>{
-    gsap.fromTo(el, {opacity:0, y:24, filter:'blur(6px)'}, {opacity:1, y:0, filter:'blur(0)', duration:.6, ease:'power3.out',
-      scrollTrigger:{trigger:el, start:'top 85%'}});
-  });
-  const isInternal = (a)=> a.hostname === location.hostname || a.href.startsWith('./') || a.getAttribute('href')?.startsWith('../');
-  document.addEventListener('click', (e)=>{
-    const a = e.target.closest('a');
-    if(!a || a.target === '_blank') return;
-    const url = a.getAttribute('href'); if(!url || url.startsWith('#')) return;
-    if(!isInternal(a)) return;
-    e.preventDefault();
-    const tlOut = gsap.timeline({defaults:{ease:'power4.inOut'}, onComplete(){ window.location.href = url; }});
-    const cards = gsap.utils.toArray('.cards article');
-    if(cards.length){ tlOut.to(cards, {opacity:0, y: gsap.utils.wrap([60,-60]), x: gsap.utils.wrap([80,-80]), rotate: gsap.utils.wrap([8,-8]), scale:.96, filter:'blur(6px)', duration:.45, stagger:{each:.03}} ,0); }
-    tlOut.to('.hero', {opacity:0, y:-20, duration:.35}, 0);
-    tlOut.to('.header', {opacity:0, y:-20, duration:.35}, 0.05);
-    tlOut.to('.footer', {opacity:0, y:20, duration:.35}, 0.05);
-    tlOut.to('.page-overlay', {y:'0%', duration:.6}, 0.06);
-  });
-});
-  </script>
+  
+  <main class="container">
+    <div class="grid front">
+      <article class="hero-card">
+        <a class="media" href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html"><img src="./IMG/rota66_3.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Cultura</div>
+          <h1 class="headline"><a href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html">Rota 66: Além da velocidade - coordenado pela profª Denise Biella.</a></h1>
+          <p class="subhead">O começo da peça se passa na cidade grande, através de uma corrida na qual conhecemos o Relâmpago McQueen, o protagonista que irá passar por altos e baixos durante 120 minutos.</p>
+          <div class="meta">
+            <span>Por @Dino_raaaawr</span>
+            <span>•</span>
+            <a class="btn btn-primary" href="./pages/rota-66-al-m-da-velocidade---coordenado-pela-prof-denise-biella.html">Ler matéria</a>
+          </div>
+        </div>
+      </article>
+
+      <aside class="side-box">
+        <header>
+          <h2>Últimas</h2>
+          <a href="./pages/todas-noticias.html">Ver tudo</a>
+        </header>
+        <div class="side-list">
+          <a class="side-item" href="./pages/j-se-perguntaram-como-surgiu-o-projeto-de-teatro-jovem-em-cena.html">
+        <img src="./IMG/jovem-em-cena.jpg" alt="">
+        <div>
+          <div class="t">Já se perguntaram como surgiu o projeto de teatro Jovem em Cena?</div>
+          <div class="m">Cultura • Por @kety__vilasboas</div>
+        </div>
+      </a>
+<a class="side-item" href="./pages/universit-ria-acusada-de-matar-quatro-pessoas-uma-a-facada-e-as-outras-v-timas-de-envenenamento.html">
+        <img src="./IMG/mosaico-serial-killer.gif" alt="">
+        <div>
+          <div class="t">Universitária é acusada de matar quatro pessoas, uma a facada e as outras vítimas de envenenamento.</div>
+          <div class="m">Brasil • Por @Dino_raaaawr</div>
+        </div>
+      </a>
+<a class="side-item" href="./pages/como-um-iphone-roubado-ajudou-a-pol-cia-a-desbaratar-gangue-acusada-de-enviar-china-mais-de-40-mil-celulares.html">
+        <img src="./IMG/iphone.jpg" alt="">
+        <div>
+          <div class="t">Como um iPhone roubado ajudou a polícia a desbaratar gangue acusada de enviar à China mais de 40 mil celulares.</div>
+          <div class="m">Brasil • Por @kety__vilasboas</div>
+        </div>
+      </a>
+<a class="side-item" href="./pages/poesia-em-meio-ao-caos-quando-o-grito-vira-verso.html">
+        <img src="./IMG/poesia.jpg" alt="">
+        <div>
+          <div class="t">Poesia em meio ao caos: quando o grito vira verso</div>
+          <div class="m">Cultura • Por @w3b_camilly_</div>
+        </div>
+      </a>
+<a class="side-item" href="./pages/invoca-o-do-mal-4.html">
+        <img src="./IMG/invocacao-do-mal.jpg" alt="">
+        <div>
+          <div class="t">Invocação do Mal 4</div>
+          <div class="m">Cultura • Por @juju13.15_</div>
+        </div>
+      </a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="section-title">
+      <h2>Mais notícias</h2>
+      <a href="./pages/todas-noticias.html">Todas as notícias</a>
+    </div>
+
+    <section class="cards">
+      <article class="card">
+        <a class="media" href="./pages/metanol-nas-bebidas-ultrapassa-de-10-casos-confirmados-de-intoxica-o.html"><img src="./IMG/metanol-1.jpeg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Brasil</div>
+          <h3 class="title"><a href="./pages/metanol-nas-bebidas-ultrapassa-de-10-casos-confirmados-de-intoxica-o.html">Metanol nas bebidas ultrapassa de 10 casos confirmados de intoxicação.</a></h3>
+          <p class="excerpt">No começo de setembro, pessoas começaram a relatar sintomas parecidos com ressacas para os profissionais da saúde Eles citaram sobre as bebidas que tomaram e examinaram, constando …</p>
+          <div class="meta"><span>Por @Dino_raaaawr</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/noticia-cinema.html"><img src="./IMG/cinema.jpeg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Cultura</div>
+          <h3 class="title"><a href="./pages/noticia-cinema.html">Cinemas por apenas R$ 10 nessa semana?!</a></h3>
+          <p class="excerpt">Isso mesmo, você não leu errado, a CineMark proporcionou para nós nessa última semana de Agosto onde os ingressos de todos os Cine estarão por apenas 10 reais para qualquer filme d…</p>
+          <div class="meta"><span>Por @kety__vilasboas</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/d4vd.html"><img src="./IMG/d4vd1.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Cultura</div>
+          <h3 class="title"><a href="./pages/d4vd.html">Famoso por suas trilhas musicais em “Invencível” e “Arcane”, o cantor D4vd está sendo investigado por homicídio.</a></h3>
+          <p class="excerpt">Em 8 de setembro, a polícia foi até um pátio de reboque, com reclamações de que um odor forte saia de um Tesla, após abrirem o carro, encontraram o corpo de uma garota, de 15 anos.…</p>
+          <div class="meta"><span>Por @dino_raaaawr</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/filme-debate.html"><img src="./IMG/filme-debate.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Cultura</div>
+          <h3 class="title"><a href="./pages/filme-debate.html">O Grande Desafio</a></h3>
+          <p class="excerpt">Fonte: Site BoraFlix</p>
+          <div class="meta"><span>Por @dylxtrans</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/poema.html"><img src="./IMG/poema.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Cultura</div>
+          <h3 class="title"><a href="./pages/poema.html">Por que os poemas ainda fazem a gente sentir tanto?</a></h3>
+          <p class="excerpt">Você já parou para pensar por que, mesmo com tanta coisa rápida na internet e nas redes sociais, a gente ainda gosta tanto de poemas? Eu acho que é porque eles têm um jeito especia…</p>
+          <div class="meta"><span>Por @w3b_camilly_</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/orgulho-geek.html"><img src="./IMG/geek.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Cultura</div>
+          <h3 class="title"><a href="./pages/orgulho-geek.html">Quem não gosta de sair de final de semana? Foi pensando nisso que a Secretária de Cultura de São Paulo fez diversos eventos.</a></h3>
+          <p class="excerpt">Na primeira semana de setembro, a CultSP (@culturasp) inaugurou a carreta “museu catavento: ciência que vai até você”, onde consiste em um caminhão de 20 metros de comprimento que …</p>
+          <div class="meta"><span>Por @dino_raaaawr</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/noticia-tenente.html"><img src="./IMG/predio.jpeg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Escola</div>
+          <h3 class="title"><a href="./pages/noticia-tenente.html">Investigadores da Natureza: o projeto da EMEF Tenente Aviador</a></h3>
+          <p class="excerpt">Investigadores da Natureza, o projeto da escola EMEF Tenente Aviador que chamou a atenção de moradores do condomínio com sua manifestação.</p>
+          <div class="meta"><span>Por @dino_raaaawr</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/andorinha.html"><img src="./IMG/andorinha.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Escola</div>
+          <h3 class="title"><a href="./pages/andorinha.html">Trabalhador cai de andaime em obra no Andorinha Hiper Center, na Zona Norte de SP</a></h3>
+          <p class="excerpt">Na tarde de quinta feira (04/09), ouve um acidente no andorinha hiper center na Lauzane Paulista, zona norte de São Paulo. Um homem de 35 anos, caiu de um andaime de aproximadament…</p>
+          <div class="meta"><span>Por @juju13.15_</span></div>
+        </div>
+      </article>
+<article class="card">
+        <a class="media" href="./pages/um-maluco-2.html"><img src="./IMG/cartaz-filme-adam.jpg" alt=""></a>
+        <div class="content">
+          <div class="kicker">Escola</div>
+          <h3 class="title"><a href="./pages/um-maluco-2.html">Um maluco no golfe 2</a></h3>
+          <p class="excerpt">Um filme que aborda o peso das consequências, o desejo de querer uma vida melhor para seus filhos ou até o sonho de “salvar” o golfe do avanço da tecnologia.</p>
+          <div class="meta"><span>Por @Dino_raaaawr</span></div>
+        </div>
+      </article>
+    </section>
+
+    <div style="margin-top:22px" class="small">
+      <strong>Dica:</strong> Em qualquer página, use a busca no topo para encontrar uma matéria.
+    </div>
+  </main>
+
+
+  <div id="siteFooter"></div>
+  <script src="./js/site.js"></script>
 </body>
 </html>

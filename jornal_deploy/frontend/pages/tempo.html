@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="last-updated" content="2026-02-09">
+  <title>Tempo — Café com José Leite</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  <main class="container">
+    <header class="page-head">
+      <h1>Tempo</h1>
+      <p>Previsão simples e leve (sem cadastro e sem chave). Você pode usar sua localização ou ver São Paulo como referência.</p>
+    </header>
+
+    <div class="card weather-card">
+      <div class="weather-now">
+        <div class="wx-left">
+          <div class="wx-icon" id="curIcon">⛅</div>
+          <div>
+            <div class="wx-temp" id="curTemp">—</div>
+            <div class="wx-desc" id="curDesc">Carregando…</div>
+          </div>
+        </div>
+
+        <div class="wx-right">
+          <div><strong id="placeName">—</strong></div>
+          <div>Sensação: <span id="curFeels">—</span></div>
+          <div>Vento: <span id="curWind">—</span></div>
+          <div style="margin-top:10px;">
+            <button class="backtotop" id="useLocation" type="button">Usar minha localização</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wx-grid" id="dailyList" aria-label="Previsão dos próximos dias"></div>
+      <div class="note" id="status" style="margin-top:10px;"></div>
+      <div class="note" style="margin-top:6px;">Fonte: Open-Meteo (sem chave). Resultados aproximados.</div>
+    </div>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="../js/site.js" defer></script>
+  <script src="../js/tempo.js" defer></script>
+</body>
+</html>

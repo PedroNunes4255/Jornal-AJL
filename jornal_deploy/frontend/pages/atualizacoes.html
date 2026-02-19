@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="last-updated" content="2026-02-09">
+  <title>Atualizações do site — Café com José Leite</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  <main class="container">
+    <header class="page-head">
+      <h1>Atualizações do site</h1>
+      <p>Registro do que foi melhorado para o jornal ficar mais rápido, organizado e sem bugs no Netlify.</p>
+    </header>
+
+    <div class="grid cards-2">
+      <div class="card panel">
+        <h2>O que foi removido</h2>
+        <div class="note">
+          • Firebase, curtidas e contagem de visitas (site agora é 100% estático).<br>
+          • Bootstrap e GSAP (menos peso e menos chance de quebrar no deploy).<br>
+          • Scripts antigos que causavam conflito e IDs duplicados.
+        </div>
+      </div>
+
+      <div class="card panel">
+        <h2>O que foi melhorado</h2>
+        <div class="note">
+          • Layout estilo jornal (capa, seções e cards).<br>
+          • Responsividade real (celular e computador).<br>
+          • Imagens sempre ajustadas (sem esticar).<br>
+          • Header/Footer unificados e automáticos em todas as páginas.
+        </div>
+      </div>
+    </div>
+
+    <div class="section-head">
+      <h2>Novas páginas e recursos</h2>
+      <a href="./todas-noticias.html">Ver notícias</a>
+    </div>
+
+    <div class="card panel">
+      <div class="note">
+        • <strong>Página de notícias</strong> com busca e filtros.<br>
+        • <strong>Página do tempo</strong> usando Open-Meteo (sem chave).<br>
+        • <strong>Última atualização</strong> aparece no topo e no rodapé de cada página.
+      </div>
+    </div>
+
+    <div class="section-head">
+      <h2>Dica para Netlify</h2>
+      <a href="../index.html">Voltar para a home</a>
+    </div>
+
+    <div class="card panel">
+      <div class="note">
+        Para evitar “sumir imagem” no Netlify, mantenha o nome do arquivo exatamente igual (maiúsculas/minúsculas).<br>
+        No projeto, a pasta é <strong>IMG</strong> (maiúsculo), então os links também precisam ser <strong>IMG/</strong>.
+      </div>
+    </div>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="../js/site.js" defer></script>
+</body>
+</html>
