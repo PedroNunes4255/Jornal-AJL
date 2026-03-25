@@ -458,3 +458,17 @@ main{padding:18px 0 40px}
   font-weight:900;
 }
 #backToTop.show{display:inline-flex}
+.card media-padrao {
+  width: 200%;
+  height: 400px;
+  object-fit: cover;
+}
+.final {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.img-topo {
+  object-fit: cover;
+  object-position: top;
+}

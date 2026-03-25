@@ -8,8 +8,13 @@
   const HREF_BASE = isPages ? './' : './pages/';
   const IMG_BASE = isPages ? '../IMG/' : './IMG/';
 
+  const imagensTopo = [
+  "sao-paulo-x-palmeiras.png"
+];
+
   const params = new URLSearchParams(location.search);
   const initialQ = params.get('q') || '';
+  
   if(qInput) qInput.value = initialQ;
 
   function norm(s){ return String(s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,''); }
@@ -28,9 +33,11 @@
     root.innerHTML = items.map(it=>{
       const href = HREF_BASE + it.slug;
       const img = IMG_BASE + it.image;
+      const classeImg = imagensTopo.includes(it.image) ? "img-topo" : "";
       return `
       <article class="card">
-        <a class="media" href="${href}"><img src="${img}" alt=""></a>
+        <a class="media" href="${href}">
+          <img src="${img}" class="${classeImg}" alt=""></a>
         <div class="content">
           <div class="kicker">${it.category}</div>
           <h3 class="title"><a href="${href}">${it.title}</a></h3>

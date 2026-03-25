@@ -166,5 +166,21 @@ window.NEWS_DATA = [
     "excerpt": "Ana Paula Veloso Fernandes, de 36 anos e estudante de Direito, morava em Rio de Janeiro (RJ) e veio para Guarulhos (SP), alugando uma casa de fundo com Marcelo Hari, porém, a acusa…",
     "author": "@Dino_raaaawr",
     "category": "Brasil"
+  },
+  {
+    "title": "São Paulo é derrotado dentro de casa pelo Palmeiras.",
+    "slug": "sao-paulo-x-palmeiras.html",
+    "image": "sao-paulo-x-palmeiras.png",
+    "excerpt": "O único gol do jogo, foi feito pelo jogador colombiano do Palmeiras Jhon Arias, logo no início da partida, nos primeiros 6 minutos de jogo.",
+    "author": "@mahriios_",
+    "category": "Esportes"
+  },
+  {
+    "title": "Mês de Março!",
+    "slug": "março.html",
+    "image": "dia-internacional-da-mulher-1.jpg",
+    "excerpt": "Muitos sabem que a “homenagem” veio através de  muita dor, luta e lágrimas. Esses e outros adjetivos cabem naquelas mulheres que tiveram que encontrar forças para sobreviver em meio a luta do nosso dia-a-dia.",
+    "author": "@dino_raaaawr",
+    "category": "Cultura"
   }
 ];
