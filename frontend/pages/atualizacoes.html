@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="last-updated" content="2026-02-09">
+  <title>Atualizações — Jornal AJL</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  
+  <main class="container">
+    <div class="section-title">
+      <h2>Atualizações do site</h2>
+      <a href="../index.html">Voltar</a>
+    </div>
+
+    <div class="widget">
+      <header><h3>Última atualização</h3><span class="small">09/02/2026</span></header>
+      <div class="pad">
+        <ul class="small">
+          <li><strong>Redesign completo</strong> do layout para estilo portal (inspirado em CNN/G1), com foco em leitura e responsividade.</li>
+          <li><strong>Removidos</strong>: Firebase, curtidas, visitas, comentários e scripts pesados (para evitar bugs no Netlify/GitHub).</li>
+          <li><strong>Header/Footer padronizados</strong> em todas as páginas (mais fácil de manter).</li>
+          <li><strong>Última atualização</strong> exibida automaticamente (meta <code>last-updated</code>).</li>
+          <li><strong>Página do Tempo</strong> funcionando com Open‑Meteo (sem chave / gratuito).</li>
+          <li><strong>Página “Todas as notícias”</strong> com busca e filtro por editoria.</li>
+        </ul>
+        <!-- <div class="note">
+          Para adicionar uma nova matéria e ela aparecer em “Todas as notícias”, adicione um item em <code>/frontend/js/news-data.js</code> (copiando o formato dos itens existentes).
+        </div> -->
+      </div>
+    </div>
+  </main>
+
+
+  <div id="siteFooter"></div>
+  <script src="../js/site.js"></script>
+</body>
+</html>

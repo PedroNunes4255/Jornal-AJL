@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="last-updated" content="2026-02-09">
+  <title>Tempo — Jornal AJL</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  
+  <main class="container">
+    <div class="section-title">
+      <h2>Tempo</h2>
+      <a href="../index.html">Voltar</a>
+    </div>
+
+    <div class="widget">
+      <header><h3>Previsão</h3><span class="small">Brasil</span></header>
+      <div class="pad">
+        <p class="small" style="margin-top:0">A previsão é carregada automaticamente. Se quiser, use sua localização.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+          <button class="btn btn-primary" id="useMyLocation">Usar minha localização</button>
+          <span class="small" id="weatherStatus" style="color:var(--muted);font-weight:800"></span>
+        </div>
+      </div>
+    </div>
+
+    <div id="weatherOutput" style="margin-top:18px"></div>
+  </main>
+
+  <script src="../js/tempo.js"></script>
+
+
+  <div id="siteFooter"></div>
+  <script src="../js/site.js"></script>
+</body>
+</html>

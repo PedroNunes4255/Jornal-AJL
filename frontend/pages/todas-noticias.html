@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="last-updated" content="2026-02-09">
+  <title>Todas as notícias — Jornal AJL</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  
+  <main class="container" id="busca">
+    <div class="section-title">
+      <h2>Todas as notícias</h2>
+      <a href="../index.html">Voltar</a>
+    </div>
+
+    <div class="widget">
+      <header><h3>Buscar</h3><span class="small">Filtre por editoria</span></header>
+      <div class="pad" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <label class="search" style="min-width:min(520px, 100%);flex:1">
+          <span aria-hidden="true">🔎</span>
+          <input id="q" type="search" placeholder="Digite um assunto, título ou autor..." />
+        </label>
+
+        <select id="cat" class="btn" style="min-width:170px">
+          <option value="Todas">Todas</option>
+<option value="Brasil">Brasil</option>
+<option value="Cultura">Cultura</option>
+<option value="Escola">Escola</option>
+<option value="Esportes">Esportes</option>
+<option value="Mundo">Mundo</option>
+        </select>
+
+        <a class="btn btn-primary" href="../index.html">Página inicial</a>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top:16px">
+      <h2>Resultados</h2>
+      <a href="./atualizacoes.html">O que mudou</a>
+    </div>
+
+    <section class="cards" id="newsList"></section>
+  </main>
+
+  <script src="../js/news-data.js"></script>
+  <script src="../js/todas-noticias.js"></script>
+
+
+  <div id="siteFooter"></div>
+  <script src="../js/site.js"></script>
+</body>
+</html>
