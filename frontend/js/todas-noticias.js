@@ -8,7 +8,6 @@
   const HREF_BASE = isPages ? './' : './pages/';
   const IMG_BASE = isPages ? '../IMG/' : './IMG/';
 
-<<<<<<< HEAD
   const imagensTopo = [
   "sao-paulo-x-palmeiras.png"
 ];
@@ -16,10 +15,7 @@
   const params = new URLSearchParams(location.search);
   const initialQ = params.get('q') || '';
   
-=======
-  const params = new URLSearchParams(location.search);
-  const initialQ = params.get('q') || '';
->>>>>>> 9433911ca08e4394203e15affd2642e852fe8402
+
   if(qInput) qInput.value = initialQ;
 
   function norm(s){ return String(s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,''); }
