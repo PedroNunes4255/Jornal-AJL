@@ -182,5 +182,37 @@ window.NEWS_DATA = [
     "excerpt": "Muitos sabem que a “homenagem” veio através de  muita dor, luta e lágrimas. Esses e outros adjetivos cabem naquelas mulheres que tiveram que encontrar forças para sobreviver em meio a luta do nosso dia-a-dia.",
     "author": "@dino_raaaawr",
     "category": "Cultura"
+  },
+  {
+    "title": "Principais problemas no sistema educacional atual no Brasil.",
+    "slug": "problemas_educacionais.html",
+    "image": "educacao.jpeg",
+    "excerpt": "A educação é dada como um dos pilares da estruturação social e econômica de um país. É por meio desta que obtemos o desenvolvimento e transformação social; contribui integralmente para a formação de caráter e valores, pensamento crítico e opiniões.",
+    "author": "@_ymariane",
+    "category": "Cultura"
+  },
+  {
+    "title": "Atualização do caso do D4vd",
+    "slug": "atualizacao-do-caso-do-d4vd.html",
+    "image": "default.jpg",
+    "excerpt": "D4vd: condenado ou não? Adolescente de 14 anos foi encontrada morta no porta-malas de um Tesla, investigações apontam que o dono do veículo é David Burke, conhecido mundialmente…",
+    "author": "@jornalajl",
+    "category": "Mundo"
+  },
+  {
+    "title": "Shows ao vivo criam uma energia única aos fãs de música",
+    "slug": "shows-ao-vivo-criam-uma-energia-unica-aos-fas-de-musica.html",
+    "image": "default.jpg",
+    "excerpt": "Shows ao vivo criam uma energia única aos fãs de música. Quando você coloca um fone de ouvido, já parou pra pensar na sensação de ir em um show escutar? já pensou na experiência…",
+    "author": "@jornalajl",
+    "category": "Cultura"
+  },
+  {
+    "title": "Cultura e Acesso à Arte no Brasil",
+    "slug": "cultura-e-acesso-a-arte-no-brasil.html",
+    "image": "Secretaria-de-Cultura-do-Estado-de-São Paulo.jpeg",
+    "excerpt": "Cultura e Acesso à Arte no Brasil  A cultura é o conjunto de costumes, valores, crenças, leis, tradições e formas de expressão de um povo. Ela é aprendida, está presente no…",
+    "author": "@jornalajl",
+    "category": "Cultura"
   }
 ];
