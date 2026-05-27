@@ -214,5 +214,13 @@ window.NEWS_DATA = [
     "excerpt": "Cultura e Acesso à Arte no Brasil  A cultura é o conjunto de costumes, valores, crenças, leis, tradições e formas de expressão de um povo. Ela é aprendida, está presente no…",
     "author": "@jornalajl",
     "category": "Cultura"
+  },
+  {
+    "title": "O Fim de uma Era? Max Verstappen avalia saída da Fórmula 1 em 2026",
+    "slug": "o-fim-de-uma-era-max-verstappen-avalia-saida-da-formula-1-em-2026.html",
+    "image": "o-fim-de-uma-era-max-verstappen-avalia-saida-da-formula-1-em-2026-1.jpg",
+    "excerpt": "O Fim de uma Era? Max Verstappen avalia saída da Fórmula 1 em 2026 Especial para o Grande Prêmio O paddock da Fórmula 1 enfrenta um terremoto nos bastidores. Max Verstappen, o piloto que dominou a categoria nos últimos anos, está, pela primeira vez,…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
   }
 ];

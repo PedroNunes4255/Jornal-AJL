@@ -5,14 +5,29 @@ import re
 import json
 import unicodedata
 from datetime import datetime
+
 from docx import Document
 
-# ==========================================================
+# ==========================================
 # CONFIG
-# ==========================================================
+# ==========================================
 
-PASTA_PAGES = "./frontend/pages"
-PASTA_JS = "./frontend/js"
+PASTA_FRONTEND = "./frontend"
+
+PASTA_PAGES = os.path.join(
+    PASTA_FRONTEND,
+    "pages"
+)
+
+PASTA_JS = os.path.join(
+    PASTA_FRONTEND,
+    "js"
+)
+
+PASTA_IMG = os.path.join(
+    PASTA_FRONTEND,
+    "IMG"
+)
 
 NEWS_DATA_ARQUIVO = os.path.join(
     PASTA_JS,
@@ -20,6 +35,7 @@ NEWS_DATA_ARQUIVO = os.path.join(
 )
 
 AUTOR_PADRAO = "@jornalajl"
+
 IMAGEM_PADRAO = "default.jpg"
 
 CATEGORIAS = {
@@ -30,9 +46,9 @@ CATEGORIAS = {
     "5": "Mundo"
 }
 
-# ==========================================================
+# ==========================================
 # UTILIDADES
-# ==========================================================
+# ==========================================
 
 def limpar_acentos(texto):
 
@@ -43,7 +59,9 @@ def limpar_acentos(texto):
 
 def slugify(texto):
 
-    texto = limpar_acentos(texto.lower())
+    texto = limpar_acentos(
+        texto.lower()
+    )
 
     texto = re.sub(
         r'[^a-z0-9\s-]',
@@ -59,26 +77,134 @@ def slugify(texto):
 
     return texto.strip('-')
 
-def gerar_excerpt(texto, tamanho=180):
+# ==========================================
+# EXCERPT MELHORADO
+# ==========================================
 
-    texto = texto.replace('\n', ' ').strip()
+def gerar_excerpt(texto, tamanho=260):
 
-    if len(texto) <= tamanho:
-        return texto
+    linhas_ruins = [
+        "foto:",
+        "imagem:",
+        "crédito:",
+        "créditos:",
+        "getty",
+        "reprodução",
+        "fonte:",
+        "nurphoto",
+        "via",
+        "ap photo"
+    ]
 
-    return texto[:tamanho].rsplit(' ', 1)[0] + "…"
+    paragrafos = texto.split("\n")
+
+    paragrafos_filtrados = []
+
+    for p in paragrafos:
+
+        p_limpo = p.strip()
+
+        if not p_limpo:
+            continue
+
+        p_lower = p_limpo.lower()
+
+        ignorar = False
+
+        for lixo in linhas_ruins:
+
+            if lixo in p_lower:
+                ignorar = True
+                break
+
+        if not ignorar:
+            paragrafos_filtrados.append(
+                p_limpo
+            )
+
+    texto_final = " ".join(
+        paragrafos_filtrados
+    )
+
+    if len(texto_final) <= tamanho:
+        return texto_final
+
+    return (
+        texto_final[:tamanho]
+        .rsplit(' ', 1)[0]
+        + "…"
+    )
+
+# ==========================================
+# LER DOCX
+# ==========================================
 
 def ler_docx(caminho):
 
     doc = Document(caminho)
 
-    paragrafos = [
-        p.text.strip()
-        for p in doc.paragraphs
-        if p.text.strip()
-    ]
+    paragrafos = []
+
+    for p in doc.paragraphs:
+
+        texto = p.text.strip()
+
+        if texto:
+            paragrafos.append(texto)
 
     return "\n".join(paragrafos)
+
+# ==========================================
+# EXTRAIR IMAGEM DO DOCX
+# ==========================================
+
+def extrair_imagem_docx(caminho_docx, slug):
+
+    try:
+
+        doc = Document(caminho_docx)
+
+        rels = doc.part.rels
+
+        contador = 1
+
+        for rel in rels.values():
+
+            if "image" in rel.target_ref:
+
+                imagem = rel.target_part.blob
+
+                nome = f"{slug}-{contador}.jpg"
+
+                caminho_img = os.path.join(
+                    PASTA_IMG,
+                    nome
+                )
+
+                with open(
+                    caminho_img,
+                    "wb"
+                ) as f:
+
+                    f.write(imagem)
+
+                print(
+                    f"\n🖼️ Imagem extraída automaticamente: {nome}"
+                )
+
+                return nome
+
+    except Exception as e:
+
+        print(
+            f"\n⚠️ Erro ao extrair imagem: {e}"
+        )
+
+    return IMAGEM_PADRAO
+
+# ==========================================
+# TEXTO MANUAL
+# ==========================================
 
 def ler_texto_manual():
 
@@ -98,6 +224,10 @@ def ler_texto_manual():
 
     return "\n".join(linhas)
 
+# ==========================================
+# HTML
+# ==========================================
+
 def transformar_em_html(texto):
 
     html = ""
@@ -109,203 +239,20 @@ def transformar_em_html(texto):
         p = p.strip()
 
         if p:
+
             html += f"<p>{p}</p>\n"
 
     return html
 
-# ==========================================================
-# HTML
-# ==========================================================
-
-def criar_html(
-    titulo,
-    autor,
-    categoria,
-    imagem,
-    conteudo_html,
-    slug,
-    relacionadas
-):
-
-    data_formatada = datetime.now().strftime("%d/%m/%Y")
-
-    relacionadas_html = ""
-
-    for noticia in relacionadas:
-
-        relacionadas_html += f'''
-<li>
-  <a href="./{noticia["slug"]}">
-    {noticia["title"]}
-  </a>
-</li>
-'''
-
-    html = f'''<!doctype html>
-<html lang="pt-BR">
-
-<head>
-
-  <meta charset="utf-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1"
-  >
-
-  <meta
-    name="last-updated"
-    content="{datetime.now().strftime("%Y-%m-%d")}"
-  >
-
-  <title>{titulo} — Jornal AJL</title>
-
-  <link rel="stylesheet" href="../CSS/style.css">
-
-</head>
-
-<body>
-
-<div id="siteHeader"></div>
-
-<main class="container">
-
-  <div class="article-wrap">
-
-    <article class="article">
-
-      <div class="pad">
-
-        <div class="breadcrumb">
-
-          <a href="../index.html">
-            Início
-          </a>
-
-          •
-
-          <a href="./todas-noticias.html">
-            {categoria}
-          </a>
-
-        </div>
-
-        <h1>{titulo}</h1>
-
-        <div class="byline">
-
-          <span>
-
-            Por
-
-            <strong>
-
-              <a
-                href="https://instagram.com/{autor.replace("@","")}"
-                target="_blank"
-              >
-                {autor}
-              </a>
-
-            </strong>
-
-          </span>
-
-          <span>•</span>
-
-          <span>
-            Atualizado em {data_formatada}
-          </span>
-
-        </div>
-
-      </div>
-
-      <div class="media">
-
-        <img
-          src="../IMG/{imagem}"
-          alt="{titulo}"
-        >
-
-      </div>
-
-      <div class="pad body">
-
-        {conteudo_html}
-
-        <div class="note">
-
-          Este é um conteúdo escolar,
-          produzido por alunos.
-
-        </div>
-
-      </div>
-
-    </article>
-
-    <aside class="widget">
-
-      <header>
-
-        <h3>Leia também</h3>
-
-        <a
-          href="./todas-noticias.html"
-          class="small"
-        >
-          Ver todas
-        </a>
-
-      </header>
-
-      <div class="pad">
-
-        <ul class="small">
-
-          {relacionadas_html}
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-  </div>
-
-</main>
-
-<div id="siteFooter"></div>
-
-<script src="../js/site.js"></script>
-
-</body>
-</html>
-'''
-
-    caminho = os.path.join(
-        PASTA_PAGES,
-        slug
-    )
-
-    with open(
-        caminho,
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        f.write(html)
-
-    print(f"\n✅ HTML criado: {slug}")
-
-# ==========================================================
+# ==========================================
 # NEWS DATA
-# ==========================================================
+# ==========================================
 
 def carregar_news_data():
 
-    if not os.path.exists(NEWS_DATA_ARQUIVO):
+    if not os.path.exists(
+        NEWS_DATA_ARQUIVO
+    ):
         return []
 
     with open(
@@ -344,9 +291,204 @@ def salvar_news_data(lista):
 
         f.write(final)
 
-# ==========================================================
+# ==========================================
+# CRIAR HTML
+# ==========================================
+
+def criar_html(
+    titulo,
+    autor,
+    categoria,
+    imagem,
+    conteudo_html,
+    slug,
+    relacionadas
+):
+
+    data_formatada = datetime.now().strftime(
+        "%d/%m/%Y"
+    )
+
+    relacionadas_html = ""
+
+    for noticia in relacionadas:
+
+        relacionadas_html += f'''
+<li>
+  <a href="./{noticia["slug"]}">
+    {noticia["title"]}
+  </a>
+</li>
+'''
+
+    html = f'''<!doctype html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1"
+>
+
+<meta
+  name="last-updated"
+  content="{datetime.now().strftime("%Y-%m-%d")}"
+>
+
+<title>{titulo} — Jornal AJL</title>
+
+<link
+  rel="stylesheet"
+  href="../CSS/style.css"
+>
+
+</head>
+
+<body>
+
+<div id="siteHeader"></div>
+
+<main class="container">
+
+<div class="article-wrap">
+
+<article class="article">
+
+<div class="pad">
+
+<div class="breadcrumb">
+
+<a href="../index.html">
+Início
+</a>
+
+•
+
+<a href="./todas-noticias.html">
+{categoria}
+</a>
+
+</div>
+
+<h1>{titulo}</h1>
+
+<div class="byline">
+
+<span>
+
+Por
+
+<strong>
+
+<a
+href="https://instagram.com/{autor.replace("@","")}"
+target="_blank"
+>
+
+{autor}
+
+</a>
+
+</strong>
+
+</span>
+
+<span>•</span>
+
+<span>
+Atualizado em {data_formatada}
+</span>
+
+</div>
+
+</div>
+
+<div class="media">
+
+<img
+src="../IMG/{imagem}"
+alt="{titulo}"
+>
+
+</div>
+
+<div class="pad body">
+
+{conteudo_html}
+
+<div class="note">
+
+Este é um conteúdo escolar,
+produzido por alunos.
+
+</div>
+
+</div>
+
+</article>
+
+<aside class="widget">
+
+<header>
+
+<h3>Leia também</h3>
+
+<a
+href="./todas-noticias.html"
+class="small"
+>
+
+Ver todas
+
+</a>
+
+</header>
+
+<div class="pad">
+
+<ul class="small">
+
+{relacionadas_html}
+
+</ul>
+
+</div>
+
+</aside>
+
+</div>
+
+</main>
+
+<div id="siteFooter"></div>
+
+<script src="../js/site.js"></script>
+
+</body>
+</html>
+'''
+
+    caminho = os.path.join(
+        PASTA_PAGES,
+        slug
+    )
+
+    with open(
+        caminho,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        f.write(html)
+
+    print(f"\n✅ HTML criado: {slug}")
+
+# ==========================================
 # MAIN
-# ==========================================================
+# ==========================================
 
 def main():
 
@@ -359,10 +501,16 @@ def main():
     ).strip()
 
     if not titulo:
-        print("❌ Título obrigatório.")
+
+        print(
+            "❌ Título obrigatório."
+        )
+
         return
 
-    slug = slugify(titulo) + ".html"
+    slug_base = slugify(titulo)
+
+    slug = slug_base + ".html"
 
     caminho_html = os.path.join(
         PASTA_PAGES,
@@ -372,7 +520,7 @@ def main():
     if os.path.exists(caminho_html):
 
         print(
-            "❌ Já existe uma matéria com esse nome."
+            "❌ Já existe matéria com esse nome."
         )
 
         return
@@ -384,11 +532,15 @@ def main():
     if not autor:
         autor = AUTOR_PADRAO
     else:
-        autor = "@" + autor.replace("@", "")
+        autor = (
+            "@"
+            + autor.replace("@", "")
+        )
 
     print("\nCategorias:")
 
     for k, v in CATEGORIAS.items():
+
         print(f"{k} - {v}")
 
     categoria_input = input(
@@ -400,33 +552,44 @@ def main():
         "Cultura"
     )
 
-    imagem = input(
-        "\nNome da imagem (ex: foto.jpg): "
-    ).strip()
-
-    if not imagem:
-        imagem = IMAGEM_PADRAO
-
-    excerpt_manual = input(
-        "\nResumo manual (opcional): "
-    ).strip()
-
     caminho_docx = input(
         "\nCole o caminho do .docx ou aperte ENTER para texto manual: "
     ).strip().replace('"', '')
 
     texto = ""
 
+    imagem = IMAGEM_PADRAO
+
     if caminho_docx:
 
-        if not os.path.exists(caminho_docx):
+        if not os.path.exists(
+            caminho_docx
+        ):
 
-            print("❌ Arquivo não encontrado.")
+            print(
+                "❌ Arquivo não encontrado."
+            )
+
             return
 
-        texto = ler_docx(caminho_docx)
+        texto = ler_docx(
+            caminho_docx
+        )
+
+        imagem = extrair_imagem_docx(
+            caminho_docx,
+            slug_base
+        )
 
     else:
+
+        imagem_manual = input(
+            "\nNome da imagem (ex: foto.jpg): "
+        ).strip()
+
+        if imagem_manual:
+            imagem = imagem_manual
+
         texto = ler_texto_manual()
 
     if not texto:
@@ -434,12 +597,18 @@ def main():
         print("❌ Texto vazio.")
         return
 
-    conteudo_html = transformar_em_html(texto)
+    excerpt_manual = input(
+        "\nResumo manual [opcional]: "
+    ).strip()
 
     excerpt = (
         excerpt_manual
         if excerpt_manual
         else gerar_excerpt(texto)
+    )
+
+    conteudo_html = transformar_em_html(
+        texto
     )
 
     noticias = carregar_news_data()
@@ -455,10 +624,11 @@ def main():
         "category": categoria
     }
 
-    # ADICIONA NO FINAL
     noticias.append(nova_noticia)
 
-    salvar_news_data(noticias)
+    salvar_news_data(
+        noticias
+    )
 
     criar_html(
         titulo,
@@ -474,6 +644,7 @@ def main():
     print("✅ Processo finalizado.")
 
     print("\nAgora é só:")
+
     print("git add .")
     print('git commit -m "Nova matéria"')
     print("git push")
