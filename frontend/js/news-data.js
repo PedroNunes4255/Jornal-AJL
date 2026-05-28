@@ -194,7 +194,7 @@ window.NEWS_DATA = [
   {
     "title": "Atualização do caso do D4vd",
     "slug": "atualizacao-do-caso-do-d4vd.html",
-    "image": "default.jpg",
+    "image": "d4vid_atualizaçao.jpeg",
     "excerpt": "D4vd: condenado ou não? Adolescente de 14 anos foi encontrada morta no porta-malas de um Tesla, investigações apontam que o dono do veículo é David Burke, conhecido mundialmente…",
     "author": "@jornalajl",
     "category": "Mundo"
@@ -221,6 +221,30 @@ window.NEWS_DATA = [
     "image": "o-fim-de-uma-era-max-verstappen-avalia-saida-da-formula-1-em-2026-1.jpg",
     "excerpt": "O Fim de uma Era? Max Verstappen avalia saída da Fórmula 1 em 2026 Especial para o Grande Prêmio O paddock da Fórmula 1 enfrenta um terremoto nos bastidores. Max Verstappen, o piloto que dominou a categoria nos últimos anos, está, pela primeira vez,…",
     "author": "@Li_yamauti",
+    "category": "Esportes"
+  },
+  {
+    "title": "Uma nova pandemia?",
+    "slug": "uma-nova-pandemia.html",
+    "image": "uma-nova-pandemia.jpeg",
+    "excerpt": "Uma nova pandemia? Com certeza você já deve ter visto em algum lugar ou ouvido falar sobre Hantavírus, uma doença que recentemente veio tendo fama e alguns casos recentes. Ele é um grupo de vírus transmitido principalmente por roedores silvestres. Ele causa a…",
+    "author": "@kety__vilas",
+    "category": "Mundo"
+  },
+  {
+    "title": "PRODUTORA DE REPORTAGEM DA GLOBO MORRE EM ACIDENTE DE CARRO",
+    "slug": "produtora-de-reportagem-da-globo-morre-em-acidente-de-carro.html",
+    "image": "produtora-de-reportagem-da-globo-morre-em-acidente-de-carro.jpeg",
+    "excerpt": "PRODUTORA DE REPORTAGEM DA GLOBO MORRE EM ACIDENTE DE CARRO Após 21 anos trabalhando na emissora, Fernanda Santos tem um fim trágico nas ruas de São Paulo. Nascida nas ruas da Brasilândia, Fernanda lutou com muita persistência durante sua vida; se formou pela…",
+    "author": "@Dino_raaaawr",
+    "category": "Brasil"
+  },
+  {
+    "title": "Lesão de Neymar preocupa a comissão de Carlo Ancelotti antes da Copa do Mundo",
+    "slug": "lesao-de-neymar-preocupa-a-comissao-de-carlo-ancelotti-antes-da-copa-do-mundo.html",
+    "image": "lesao-de-neymar-preocupa-a-comissao-de-carlo-ancelotti-antes-da-copa-do-mundo.jpeg",
+    "excerpt": "Lesão de Neymar preocupa a comissão de Carlo Ancelotti antes da Copa do Mundo No dia 18 de maio, aconteceu a convocação da seleção brasileira para a Copa do Mundo. Entre os nomes anunciados, o que mais foi comentado pela mídia de jornalistas e torcedores foi…",
+    "author": "@g.abbsp",
     "category": "Esportes"
   }
 ];

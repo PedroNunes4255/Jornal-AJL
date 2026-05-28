@@ -3,9 +3,11 @@
 import os
 import re
 import json
+import shutil
 import unicodedata
-from datetime import datetime
 
+from pathlib import Path
+from datetime import datetime
 from docx import Document
 
 # ==========================================
@@ -118,6 +120,7 @@ def gerar_excerpt(texto, tamanho=260):
                 break
 
         if not ignorar:
+
             paragrafos_filtrados.append(
                 p_limpo
             )
@@ -201,6 +204,37 @@ def extrair_imagem_docx(caminho_docx, slug):
         )
 
     return IMAGEM_PADRAO
+
+# ==========================================
+# COPIAR IMAGEM MANUAL
+# ==========================================
+
+def copiar_imagem_manual(caminho_imagem, slug):
+
+    if not os.path.exists(caminho_imagem):
+
+        print("❌ Imagem não encontrada.")
+        return IMAGEM_PADRAO
+
+    extensao = Path(caminho_imagem).suffix
+
+    novo_nome = f"{slug}{extensao}"
+
+    destino = os.path.join(
+        PASTA_IMG,
+        novo_nome
+    )
+
+    shutil.copy2(
+        caminho_imagem,
+        destino
+    )
+
+    print(
+        f"\n🖼️ Imagem copiada: {novo_nome}"
+    )
+
+    return novo_nome
 
 # ==========================================
 # TEXTO MANUAL
@@ -580,6 +614,20 @@ def main():
             caminho_docx,
             slug_base
         )
+
+        # CASO NÃO TENHA IMAGEM NO DOCX
+        if imagem == IMAGEM_PADRAO:
+
+            caminho_imagem = input(
+                "\nCole o caminho da imagem [opcional]: "
+            ).strip().replace('"', '')
+
+            if caminho_imagem:
+
+                imagem = copiar_imagem_manual(
+                    caminho_imagem,
+                    slug_base
+                )
 
     else:
 
