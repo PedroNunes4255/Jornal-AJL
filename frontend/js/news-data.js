@@ -196,7 +196,7 @@ window.NEWS_DATA = [
     "slug": "atualizacao-do-caso-do-d4vd.html",
     "image": "d4vid_atualizaçao.jpeg",
     "excerpt": "D4vd: condenado ou não? Adolescente de 14 anos foi encontrada morta no porta-malas de um Tesla, investigações apontam que o dono do veículo é David Burke, conhecido mundialmente…",
-    "author": "@jornalajl",
+    "author": "@Dino_raaaawr",
     "category": "Mundo"
   },
   {
@@ -204,7 +204,7 @@ window.NEWS_DATA = [
     "slug": "shows-ao-vivo-criam-uma-energia-unica-aos-fas-de-musica.html",
     "image": "default.jpg",
     "excerpt": "Shows ao vivo criam uma energia única aos fãs de música. Quando você coloca um fone de ouvido, já parou pra pensar na sensação de ir em um show escutar? já pensou na experiência…",
-    "author": "@jornalajl",
+    "author": "@mahriios_",
     "category": "Cultura"
   },
   {
@@ -270,5 +270,13 @@ window.NEWS_DATA = [
     "excerpt": "Hytalo Santos: o desfecho depois de meses. Após ter a prisão preventiva em agosto do ano passado, o influenciador Hytalo Santos e seu esposo Israel, conhecido como Euro nas redes sociais, tiveram suas sentenças. Após o Ministério da Justiça de Paraíba acatar …",
     "author": "@Dino_raaaawr",
     "category": "Brasil"
+  },
+  {
+    "title": "Interclasse, Festa Junina, e mais: O que teremos nesse mês de junho na E.E Prof Antônio José Leite.",
+    "slug": "interclasse-festa-junina-e-mais-o-que-teremos-nesse-mes-de-junho-na-ee-prof-antonio-jose-leite.html",
+    "image": "interclasse-festa-junina-e-mais-o-que-teremos-nesse-mes-de-junho-na-ee-prof-antonio-jose-leite-1.jpg",
+    "excerpt": "Interclasse, Festa Junina, e mais: O que teremos nesse mês de junho na E.E Prof Antônio José Leite. O mês de junho, que antecede as férias, será com muitos eventos em nossa escola, incluindo um dos eventos mais esperados do ano pelos nossos alunos: o…",
+    "author": "@mahriios_",
+    "category": "Escola"
   }
 ];
