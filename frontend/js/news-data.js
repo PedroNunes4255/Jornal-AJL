@@ -246,5 +246,29 @@ window.NEWS_DATA = [
     "excerpt": "Lesão de Neymar preocupa a comissão de Carlo Ancelotti antes da Copa do Mundo No dia 18 de maio, aconteceu a convocação da seleção brasileira para a Copa do Mundo. Entre os nomes anunciados, o que mais foi comentado pela mídia de jornalistas e torcedores foi…",
     "author": "@g.abbsp",
     "category": "Esportes"
+  },
+  {
+    "title": "Evento gratuito chama atenção dos moradores de São Paulo.",
+    "slug": "evento-gratuito-chama-atencao-dos-moradores-de-sao-paulo.html",
+    "image": "evento-gratuito-chama-atencao-dos-moradores-de-sao-paulo.jpeg",
+    "excerpt": "Evento gratuito chama atenção dos moradores de São Paulo. Muitos jovens e adultos costumam consumir músicas de diversos estilos durante o dia, em massa, dados apontam que, mensalmente, cerca de 100 horas na qual o brasileiro se dedica a ouvir músicas. E se…",
+    "author": "@Nalu",
+    "category": "Cultura"
+  },
+  {
+    "title": "REPORTAGEM ESPECIAL: A Precoce Partida de Gabriel Ganley e os Perigos da Performance Extrema",
+    "slug": "reportagem-especial-a-precoce-partida-de-gabriel-ganley-e-os-perigos-da-performance-extrema.html",
+    "image": "reportagem-especial-a-precoce-partida-de-gabriel-ganley-e-os-perigos-da-performance-extrema.jpeg",
+    "excerpt": "REPORTAGEM ESPECIAL: A Precoce Partida de Gabriel Ganley e os Perigos da Performance Extrema O Encontro do Corpo e a Investigação Policial Familiares e amigos de Gabriel Ganley estavam sem conseguir contato com o jovem desde a noite de quinta-feira (21).…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
+  },
+  {
+    "title": "Hytalo Santos: o desfecho depois de meses.",
+    "slug": "hytalo-santos-o-desfecho-depois-de-meses.html",
+    "image": "hytalo-santos-o-desfecho-depois-de-meses.jpeg",
+    "excerpt": "Hytalo Santos: o desfecho depois de meses. Após ter a prisão preventiva em agosto do ano passado, o influenciador Hytalo Santos e seu esposo Israel, conhecido como Euro nas redes sociais, tiveram suas sentenças. Após o Ministério da Justiça de Paraíba acatar …",
+    "author": "@Dino_raaaawr",
+    "category": "Brasil"
   }
 ];
