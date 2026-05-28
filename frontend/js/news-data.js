@@ -252,7 +252,7 @@ window.NEWS_DATA = [
     "slug": "evento-gratuito-chama-atencao-dos-moradores-de-sao-paulo.html",
     "image": "evento-gratuito-chama-atencao-dos-moradores-de-sao-paulo.jpeg",
     "excerpt": "Evento gratuito chama atenção dos moradores de São Paulo. Muitos jovens e adultos costumam consumir músicas de diversos estilos durante o dia, em massa, dados apontam que, mensalmente, cerca de 100 horas na qual o brasileiro se dedica a ouvir músicas. E se…",
-    "author": "@escola_antonio_jose_leite_of",
+    "author": "@Antonio Jose Leite",
     "category": "Cultura"
   },
   {
