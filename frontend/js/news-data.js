@@ -252,7 +252,7 @@ window.NEWS_DATA = [
     "slug": "evento-gratuito-chama-atencao-dos-moradores-de-sao-paulo.html",
     "image": "evento-gratuito-chama-atencao-dos-moradores-de-sao-paulo.jpeg",
     "excerpt": "Evento gratuito chama atenção dos moradores de São Paulo. Muitos jovens e adultos costumam consumir músicas de diversos estilos durante o dia, em massa, dados apontam que, mensalmente, cerca de 100 horas na qual o brasileiro se dedica a ouvir músicas. E se…",
-    "author": "@Antonio Jose Leite",
+    "author": "@l.silv___",
     "category": "Cultura"
   },
   {
@@ -278,5 +278,21 @@ window.NEWS_DATA = [
     "excerpt": "Interclasse, Festa Junina, e mais: O que teremos nesse mês de junho na E.E Prof Antônio José Leite. O mês de junho, que antecede as férias, será com muitos eventos em nossa escola, incluindo um dos eventos mais esperados do ano pelos nossos alunos: o…",
     "author": "@mahriios_",
     "category": "Escola"
+  },
+  {
+    "title": "REPORTAGEM ESPECIAL: Ascensão, Luxo e Cárcere – O Novo Capítulo no Caso Deolane Bezerra",
+    "slug": "reportagem-especial-ascensao-luxo-e-carcere-o-novo-capitulo-no-caso-deolane-bezerra.html",
+    "image": "reportagem-especial-ascensao-luxo-e-carcere-o-novo-capitulo-no-caso-deolane-bezerra.jpeg",
+    "excerpt": "REPORTAGEM ESPECIAL: Ascensão, Luxo e Cárcere – O Novo Capítulo no Caso Deolane Bezerra A advogada e influenciadora digital Deolane Bezerra foi presa preventivamente em sua mansão em Alphaville, Barueri (SP), sob a acusação de atuar como \"caixa\" e operadora…",
+    "author": "@Li_yamauti",
+    "category": "Brasil"
+  },
+  {
+    "title": "Junho Violeta: o mês dos idosos",
+    "slug": "junho-violeta-o-mes-dos-idosos.html",
+    "image": "junho-violeta-o-mes-dos-idosos.jpeg",
+    "excerpt": "Junho Violeta: o mês dos idosos O mês em que visa combater a violência contra os idosos. Mesmo com penas duras estabelecidas pelo Estatuto da Pessoa Idosa (Lei nº 10.741/2003), não é o suficiente. Na legislação está prevista reclusões, detenções e até multas…",
+    "author": "@Dino_raaaawr",
+    "category": "Brasil"
   }
 ];
