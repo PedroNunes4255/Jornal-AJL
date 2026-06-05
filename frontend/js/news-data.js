@@ -298,7 +298,7 @@ window.NEWS_DATA = [
   {
     "title": "Brasil goleia Panamá por 6×2 e encerra preparação para a Copa com boa atuação",
     "slug": "brasil-goleia-panama-por-62-e-encerra-preparacao-para-a-copa-com-boa-atuacao.html",
-    "image": "brasil-goleia-panama-por-62-e-encerra-preparacao-para-a-copa-com-boa-atuacao.png",
+    "image": "rayan-brasil-x-panama.webp",
     "excerpt": "Brasil goleia Panamá por 6×2 e encerra preparação para a Copa com boa atuação A partida foi realizada no Maracanã, no domingo (31), e contou com mais de 73 mil torcedores presentes. Com grande participação da torcida carioca, o estádio foi palco de uma grande…",
     "author": "@g.abbsp",
     "category": "Esportes"
