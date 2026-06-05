@@ -294,5 +294,21 @@ window.NEWS_DATA = [
     "excerpt": "Junho Violeta: o mês dos idosos O mês em que visa combater a violência contra os idosos. Mesmo com penas duras estabelecidas pelo Estatuto da Pessoa Idosa (Lei nº 10.741/2003), não é o suficiente. Na legislação está prevista reclusões, detenções e até multas…",
     "author": "@Dino_raaaawr",
     "category": "Brasil"
+  },
+  {
+    "title": "Brasil goleia Panamá por 6×2 e encerra preparação para a Copa com boa atuação",
+    "slug": "brasil-goleia-panama-por-62-e-encerra-preparacao-para-a-copa-com-boa-atuacao.html",
+    "image": "brasil-goleia-panama-por-62-e-encerra-preparacao-para-a-copa-com-boa-atuacao.png",
+    "excerpt": "Brasil goleia Panamá por 6×2 e encerra preparação para a Copa com boa atuação A partida foi realizada no Maracanã, no domingo (31), e contou com mais de 73 mil torcedores presentes. Com grande participação da torcida carioca, o estádio foi palco de uma grande…",
+    "author": "@g.abbsp",
+    "category": "Esportes"
+  },
+  {
+    "title": "Fim da escala 6×1 ganha forças e gera debates no país.",
+    "slug": "fim-da-escala-61-ganha-forcas-e-gera-debates-no-pais.html",
+    "image": "fim-da-escala-61-ganha-forcas-e-gera-debates-no-pais.jpeg",
+    "excerpt": "Fim da escala 6×1 ganha forças e gera debates no país. A proposta de Emenda à Constituição (PEC), que sugere o fim da escala 6x1, nasceu de um desabafo publicado nas redes sociais que se transformou em um movimento popular massivo. Rick Azevedo, ex-balconista…",
+    "author": "@v9xgury",
+    "category": "Brasil"
   }
 ];
