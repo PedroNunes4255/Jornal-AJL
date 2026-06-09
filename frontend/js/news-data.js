@@ -310,5 +310,21 @@ window.NEWS_DATA = [
     "excerpt": "Fim da escala 6×1 ganha forças e gera debates no país. A proposta de Emenda à Constituição (PEC), que sugere o fim da escala 6x1, nasceu de um desabafo publicado nas redes sociais que se transformou em um movimento popular massivo. Rick Azevedo, ex-balconista…",
     "author": "@v9xgury",
     "category": "Brasil"
+  },
+  {
+    "title": "Parada lgbt+ enfrenta crises ao perder patrocínios e está ameaçada de deixar as ruas de São Paulo.",
+    "slug": "parada-lgbt-enfrenta-crises-ao-perder-patrocinios-e-esta-ameacada-de-deixar-as-ruas-de-sao-paulo.html",
+    "image": "parada-lgbt-enfrenta-crises-ao-perder-patrocinios-e-esta-ameacada-de-deixar-as-ruas-de-sao-paulo.jpeg",
+    "excerpt": "Parada lgbt+ enfrenta crises ao perder patrocínios e está ameaçada de deixar as ruas de São Paulo. Em sua 30ª edição, a Parada do Orgulho LBGT+ perde em torno de 60% de seus patrocinadores. O movimento está enfrentando uma crise financeira histórica com a…",
+    "author": "@v9xgury",
+    "category": "Brasil"
+  },
+  {
+    "title": "VNL – Liga das Nações de Vôlei",
+    "slug": "vnl-liga-das-nacoes-de-volei.html",
+    "image": "vnl-liga-das-nacoes-de-volei-1.jpg",
+    "excerpt": "VNL – Liga das Nações de Vôlei Não só em campo de futebol que se encontra as estrelas, Brasil também está em quadras disputando pelos títulos da Liga! Vollleybal  Nations League (VNL – que também pode ser traduzido para “Liga das Nações”) é um evento…",
+    "author": "@dino_raaaawr",
+    "category": "Esportes"
   }
 ];
