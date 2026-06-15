@@ -326,5 +326,29 @@ window.NEWS_DATA = [
     "excerpt": "VNL – Liga das Nações de Vôlei Não só em campo de futebol que se encontra as estrelas, Brasil também está em quadras disputando pelos títulos da Liga! Vollleybal  Nations League (VNL – que também pode ser traduzido para “Liga das Nações”) é um evento…",
     "author": "@dino_raaaawr",
     "category": "Esportes"
+  },
+  {
+    "title": "Acidente de helicóptero no Rio de Janeiro deixa 6 pessoas mortas.",
+    "slug": "acidente-de-helicoptero-no-rio-de-janeiro-deixa-6-pessoas-mortas.html",
+    "image": "acidente-de-helicoptero-no-rio-de-janeiro-deixa-6-pessoas-mortas-1.jpg",
+    "excerpt": "Acidente de helicóptero no Rio de Janeiro deixa 6 pessoas mortas. O desastre da manhã de domingo (14) no Rio de Janeiro, alertou moradores com os barulhos e explosões seguintes, causando um grande alvoroço. As aeronaves que se chocaram eram, ao todo, seis…",
+    "author": "@dino_raaaawr",
+    "category": "Brasil"
+  },
+  {
+    "title": "Afeganistão está regredindo?",
+    "slug": "afeganistao-esta-regredindo.html",
+    "image": "afeganistao-esta-regredindo-1.jpg",
+    "excerpt": "Afeganistão está regredindo? Segundo a ONU, as restrições atuais impostas pelo Talibã enfraqueceram setores como saúde e educação, prejudicando não só a economia, como os direitos básicos da mulher. Euronews:📸 Vídeos em redes socais, feito pela usuária…",
+    "author": "@dino_raaaawr",
+    "category": "Mundo"
+  },
+  {
+    "title": "O prodígio Andrea Kimi Antonelli venceu o Grande Prêmio de Mônaco de Fórmula 1.",
+    "slug": "o-prodigio-andrea-kimi-antonelli-venceu-o-grande-premio-de-monaco-de-formula-1.html",
+    "image": "o-prodigio-andrea-kimi-antonelli-venceu-o-grande-premio-de-monaco-de-formula-1.jpeg",
+    "excerpt": "O prodígio Andrea Kimi Antonelli venceu o Grande Prêmio de Mônaco de Fórmula 1. O jovem piloto italiano da Mercedes garantiu o topo do pódio no circuito de Monte Carlo, consolidando ainda mais o seu favoritismo ao título mundial. O Domínio de Kimi Antonelli…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
   }
 ];
