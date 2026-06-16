@@ -350,5 +350,13 @@ window.NEWS_DATA = [
     "excerpt": "O prodígio Andrea Kimi Antonelli venceu o Grande Prêmio de Mônaco de Fórmula 1. O jovem piloto italiano da Mercedes garantiu o topo do pódio no circuito de Monte Carlo, consolidando ainda mais o seu favoritismo ao título mundial. O Domínio de Kimi Antonelli…",
     "author": "@Li_yamauti",
     "category": "Esportes"
+  },
+  {
+    "title": "Maioridade Penal: Câmara aprova PEC que a reduz de 18 para 16 anos.",
+    "slug": "maioridade-penal-camara-aprova-pec-que-a-reduz-de-18-para-16-anos.html",
+    "image": "maioridade-penal-camara-aprova-pec-que-a-reduz-de-18-para-16-anos.jpeg",
+    "excerpt": "Maioridade Penal: Câmara aprova PEC que a reduz de 18 para 16 anos. Texto avança no Congresso. A redução da maioridade penal está sob discussão no Congresso Nacional após uma Proposta de Emenda à Constituição (PEC) ser aprovada pela Comissão de Constituição e…",
+    "author": "@V9xgury",
+    "category": "Brasil"
   }
 ];
