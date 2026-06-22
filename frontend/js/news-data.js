@@ -358,5 +358,13 @@ window.NEWS_DATA = [
     "excerpt": "Maioridade Penal: Câmara aprova PEC que a reduz de 18 para 16 anos. Texto avança no Congresso. A redução da maioridade penal está sob discussão no Congresso Nacional após uma Proposta de Emenda à Constituição (PEC) ser aprovada pela Comissão de Constituição e…",
     "author": "@V9xgury",
     "category": "Brasil"
+  },
+  {
+    "title": "Brasil empata na estreia da Copa do Mundo e deixa dúvidas para a sequência",
+    "slug": "brasil-empata-na-estreia-da-copa-do-mundo-e-deixa-duvidas-para-a-sequencia.html",
+    "image": "brasil-empata-na-estreia-da-copa-do-mundo-e-deixa-duvidas-para-a-sequencia.jpeg",
+    "excerpt": "Brasil empata na estreia da Copa do Mundo e deixa dúvidas para a sequência No início da semana, a delegação da seleção brasileira chegou aos Estados Unidos para o amistoso contra o Egito. A equipe venceu por 2 a 1, com gols de Bruno Guimarães e Endrick, que…",
+    "author": "@g.abbsp",
+    "category": "Esportes"
   }
 ];
