@@ -366,5 +366,77 @@ window.NEWS_DATA = [
     "excerpt": "Brasil empata na estreia da Copa do Mundo e deixa dúvidas para a sequência No início da semana, a delegação da seleção brasileira chegou aos Estados Unidos para o amistoso contra o Egito. A equipe venceu por 2 a 1, com gols de Bruno Guimarães e Endrick, que…",
     "author": "@g.abbsp",
     "category": "Esportes"
+  },
+  {
+    "title": "Presidente da CBF é exposto por utilizar verba da entidade para bancar mulheres em viagens internacionais.",
+    "slug": "presidente-da-cbf-e-exposto-por-utilizar-verba-da-entidade-para-bancar-mulheres-em-viagens-internacionais.html",
+    "image": "presidente-da-cbf-e-exposto-por-utilizar-verba-da-entidade-para-bancar-mulheres-em-viagens-internacionais-1.jpg",
+    "excerpt": "Samir Xaud foi exposto pelo Leo Dias por gastar verba da CBF para fins pessoais. Camila ficou 8 dias no hotel. A conta da hospedagem totalizou quase 60 mil reais. No inicio do mes de junho, dia 3, ela foi vista ao lado de Samir em um restaurante em Manhattan.…",
+    "author": "@Mahriios_",
+    "category": "Esportes"
+  },
+  {
+    "title": "Jogador paraguaio de gigante brasileiro fez primeiro gol contra da Copa do Mundo 2026.",
+    "slug": "jogador-paraguaio-de-gigante-brasileiro-fez-primeiro-gol-contra-da-copa-do-mundo-2026.html",
+    "image": "jogador-paraguaio-de-gigante-brasileiro-fez-primeiro-gol-contra-da-copa-do-mundo-2026-1.jpg",
+    "excerpt": "Jogador paraguaio de gigante brasileiro fez primeiro gol contra da Copa do Mundo 2026. O volante Damián Bobadilla, um dos principais jogadores do elenco atual do São Paulo, cometeu um grande erro em sua estreia na copa do mundo, e vira alvo de zoeira entre…",
+    "author": "@Mahriios_",
+    "category": "Esportes"
+  },
+  {
+    "title": "Cucurella anunciado no Real Madrid",
+    "slug": "cucurella-anunciado-no-real-madrid.html",
+    "image": "cucurella-anunciado-no-real-madrid-1.jpg",
+    "excerpt": "Cucurella anunciado no Real Madrid O lateral-esquerdo espanhol Marc Cucurella, foi anunciado no último domingo (14) pelo Real Madrid. O Real Madrid anunciou a contratação do jogador de 27 anos, que estava no Chelsea, e está defendendo sua seleção na Copa do…",
+    "author": "@mahriios_",
+    "category": "Esportes"
+  },
+  {
+    "title": "Vozinha: Goleiro \"herói\" da seleção de Cabo Verde",
+    "slug": "vozinha-goleiro-heroi-da-selecao-de-cabo-verde.html",
+    "image": "vozinha-goleiro-heroi-da-selecao-de-cabo-verde-1.jpg",
+    "excerpt": "Vozinha: Goleiro \"herói\" da seleção de Cabo Verde O empate sem gols entre Espanha e Cabo Verde ficou marcado não só por ser a primeira partida da seleção africana numa Copa do Mundo, mas também por revelar um grande goleiro: Vozinha Aos seus 40 anos, o…",
+    "author": "@mahriios_",
+    "category": "Esportes"
+  },
+  {
+    "title": "Lewis Hamilton quebrou o jejum e venceu o GP de Barcelona-Catalunha",
+    "slug": "lewis-hamilton-quebrou-o-jejum-e-venceu-o-gp-de-barcelona-catalunha.html",
+    "image": "lewis-hamilton-quebrou-o-jejum-e-venceu-o-gp-de-barcelona-catalunha-1.jpg",
+    "excerpt": "Lewis Hamilton quebrou o jejum e venceu o GP de Barcelona-Catalunha após uma corrida cheia de reviravoltas e muita estratégia na pista espanhola. Vitória de Patrão: Ele calou a boca dos críticos ao vencer o GP da Espanha, conquistando sua primeira vitória…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
+  },
+  {
+    "title": "Sábado de Ouro em Silverstone: Kimi Antonelli vence Sprint e crava a pole do GP da Grã-Bretanha.",
+    "slug": "sabado-de-ouro-em-silverstone-kimi-antonelli-vence-sprint-e-crava-a-pole-do-gp-da-gra-bretanha.html",
+    "image": "sabado-de-ouro-em-silverstone-kimi-antonelli-vence-sprint-e-crava-a-pole-do-gp-da-gra-bretanha-1.jpg",
+    "excerpt": "Sábado de Ouro em Silverstone: Kimi Antonelli vence Sprint e crava a pole do GP da Grã-Bretanha. https://www.metropoles.com/esportes/formula-1-kimi-antonelli-garante-pole-position-no-gp-da-gra-bretanha O sábado do GP da Grã-Bretanha de 2026 foi uma jornada…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
+  },
+  {
+    "title": "A sexta-feira de treinos livres e classificação sprint do GP da Grã-Bretanha",
+    "slug": "a-sexta-feira-de-treinos-livres-e-classificacao-sprint-do-gp-da-gra-bretanha.html",
+    "image": "a-sexta-feira-de-treinos-livres-e-classificacao-sprint-do-gp-da-gra-bretanha-1.jpg",
+    "excerpt": "https://grandepremio.com/br/f1/confira-declaracoes-pilotos-classificacao-sprint-gp-inglaterra-f1-2026/ Domínio da Ferrari no TL1: Lewis Hamilton liderou a única sessão de treinos livres com o tempo de 1min29s260, superando o prodígio da Mercedes, Andrea Kimi…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
+  },
+  {
+    "title": "Banalização de Serviços Pelo Uso de IA",
+    "slug": "banalizacao-de-servicos-pelo-uso-de-ia.html",
+    "image": "banalizacao-de-servicos-pelo-uso-de-ia.webp",
+    "excerpt": "Banalização de Serviços Pelo Uso de IA Matéria produzida por: @_ymariane O avanço tecnológico e de funcionamento de Inteligências Artificiais, vem apresentando riscos para determinadas profissões. Trabalhos mais ligados à indústria de criatividade são os que…",
+    "author": "@_ymariane",
+    "category": "Mundo"
+  },
+  {
+    "title": "Grande Prêmio da Áustria de 2026",
+    "slug": "grande-premio-da-austria-de-2026.html",
+    "image": "grande-premio-da-austria-de-2026-1.jpg",
+    "excerpt": "Grande Prêmio da Áustria de 2026 George Russell venceu o GP da Áustria de Fórmula 1 de ponta a ponta e garantiu o primeiro lugar no pódio para a Mercedes. A corrida aconteceu no circuito Red Bull Ring e pegou fogo com disputas do começo ao fim. Max Verstappen…",
+    "author": "@Li_yamauti",
+    "category": "Esportes"
   }
 ];
