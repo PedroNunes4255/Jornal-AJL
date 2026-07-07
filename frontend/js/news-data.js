@@ -438,5 +438,13 @@ window.NEWS_DATA = [
     "excerpt": "Grande Prêmio da Áustria de 2026 George Russell venceu o GP da Áustria de Fórmula 1 de ponta a ponta e garantiu o primeiro lugar no pódio para a Mercedes. A corrida aconteceu no circuito Red Bull Ring e pegou fogo com disputas do começo ao fim. Max Verstappen…",
     "author": "@Li_yamauti",
     "category": "Esportes"
+  },
+  {
+    "title": "EXPECTATIVA VS REALIDADE?",
+    "slug": "expectativa-vs-realidade.html",
+    "image": "expectativa-vs-realidade-1.jpg",
+    "excerpt": "EXPECTATIVA VS REALIDADE? Mesmo após a classificação para o mata-mata na Copa Do Mundo, a Espanha e outras seleções Europeias, tinham que ralar para conseguir as vitórias. Na primeira Fase de Grupos, a seleção espanhola enfrentou Cabo Verde, fechando em um…",
+    "author": "@Dino_raaaawr",
+    "category": "Esportes"
   }
 ];
