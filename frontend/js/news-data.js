@@ -426,7 +426,7 @@ window.NEWS_DATA = [
   {
     "title": "Banalização de Serviços Pelo Uso de IA",
     "slug": "banalizacao-de-servicos-pelo-uso-de-ia.html",
-    "image": "banalizacao-de-servicos-pelo-uso-de-ia.webp",
+    "image": "img_IA.jpeg",
     "excerpt": "Banalização de Serviços Pelo Uso de IA Matéria produzida por: @_ymariane O avanço tecnológico e de funcionamento de Inteligências Artificiais, vem apresentando riscos para determinadas profissões. Trabalhos mais ligados à indústria de criatividade são os que…",
     "author": "@_ymariane",
     "category": "Mundo"
