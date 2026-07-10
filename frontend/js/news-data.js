@@ -212,7 +212,7 @@ window.NEWS_DATA = [
     "slug": "cultura-e-acesso-a-arte-no-brasil.html",
     "image": "Secretaria-de-Cultura-do-Estado-de-São Paulo.jpeg",
     "excerpt": "Cultura e Acesso à Arte no Brasil  A cultura é o conjunto de costumes, valores, crenças, leis, tradições e formas de expressão de um povo. Ela é aprendida, está presente no…",
-    "author": "@jornalajl",
+    "author": "@__ymariane",
     "category": "Cultura"
   },
   {
