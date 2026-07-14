@@ -446,5 +446,29 @@ window.NEWS_DATA = [
     "excerpt": "EXPECTATIVA VS REALIDADE? Mesmo após a classificação para o mata-mata na Copa Do Mundo, a Espanha e outras seleções Europeias, tinham que ralar para conseguir as vitórias. Na primeira Fase de Grupos, a seleção espanhola enfrentou Cabo Verde, fechando em um…",
     "author": "@Dino_raaaawr",
     "category": "Esportes"
+  },
+  {
+    "title": "Exposição à radiação: acidentes que marcaram a história e reforçam a importância da prevenção",
+    "slug": "exposicao-a-radiacao-acidentes-que-marcaram-a-historia-e-reforcam-a-importancia-da-prevencao.html",
+    "image": "exposicao-a-radiacao-acidentes-que-marcaram-a-historia-e-reforcam-a-importancia-da-prevencao.jpeg",
+    "excerpt": "Exposição à radiação: acidentes que marcaram a história e reforçam a importância da prevenção. De Goiânia a Japão, casos de contaminação mostram os riscos da radiação quando normas de segurança não são seguidas. A radiação faz parte de nossas vidas, seja na…",
+    "author": "@v9xgury",
+    "category": "Mundo"
+  },
+  {
+    "title": "Da luta por direitos ao combate à violência, por que essa história ainda precisa ser contada?",
+    "slug": "da-luta-por-direitos-ao-combate-a-violencia-por-que-essa-historia-ainda-precisa-ser-contada.html",
+    "image": "da-luta-por-direitos-ao-combate-a-violencia-por-que-essa-historia-ainda-precisa-ser-contada.jpeg",
+    "excerpt": "Da luta por direitos ao combate à violência, por que essa história ainda precisa ser contada? Mesmo após conquistas significativas, mulheres ainda enfrentam violência, preconceito e desigualdade em várias partes do mundo. A história das mulheres é marcada por…",
+    "author": "@v9xgury",
+    "category": "Brasil"
+  },
+  {
+    "title": "Oque está acontecendo no Afeganistão",
+    "slug": "oque-esta-acontecendo-no-afeganistao.html",
+    "image": "oque-esta-acontecendo-no-afeganistao.jpg",
+    "excerpt": "Oque está acontecendo no Afeganistão O cenário atual no Afeganistão exige atenção e profunda reflexão. Muitas vezes, as dificuldades cotidianas de nossa rotina nos impedem de enxergar crises humanitárias extremas que ocorrem simultaneamente pelo mundo. Ao…",
+    "author": "@li_yamauti",
+    "category": "Mundo"
   }
 ];
