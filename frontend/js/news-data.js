@@ -418,8 +418,8 @@ window.NEWS_DATA = [
   {
     "title": "A sexta-feira de treinos livres e classificação sprint do GP da Grã-Bretanha",
     "slug": "a-sexta-feira-de-treinos-livres-e-classificacao-sprint-do-gp-da-gra-bretanha.html",
-    "image": "a-sexta-feira-de-treinos-livres-e-classificacao-sprint-do-gp-da-gra-bretanha-1.jpg",
-    "excerpt": "https://grandepremio.com/br/f1/confira-declaracoes-pilotos-classificacao-sprint-gp-inglaterra-f1-2026/ Domínio da Ferrari no TL1: Lewis Hamilton liderou a única sessão de treinos livres com o tempo de 1min29s260, superando o prodígio da Mercedes, Andrea Kimi…",
+    "image": "lewis-hamilton-silverstone.webp",
+    "excerpt": "Domínio da Ferrari no TL1: Lewis Hamilton liderou a única sessão de treinos livres com o tempo de 1min29s260, superando o prodígio da Mercedes, Andrea Kimi…",
     "author": "@Li_yamauti",
     "category": "Esportes"
   },
@@ -427,7 +427,7 @@ window.NEWS_DATA = [
     "title": "Banalização de Serviços Pelo Uso de IA",
     "slug": "banalizacao-de-servicos-pelo-uso-de-ia.html",
     "image": "img_IA.jpeg",
-    "excerpt": "Banalização de Serviços Pelo Uso de IA Matéria produzida por: @_ymariane O avanço tecnológico e de funcionamento de Inteligências Artificiais, vem apresentando riscos para determinadas profissões. Trabalhos mais ligados à indústria de criatividade são os que…",
+    "excerpt": "O avanço tecnológico e de funcionamento de Inteligências Artificiais, vem apresentando riscos para determinadas profissões. Trabalhos mais ligados à indústria de criatividade são os que…",
     "author": "@_ymariane",
     "category": "Mundo"
   },
