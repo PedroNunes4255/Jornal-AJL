@@ -500,3 +500,18 @@ main{padding:18px 0 40px}
   object-fit: cover;
   object-position: top;
 }
+
+/* Galeria de imagens da matéria */
+figure.media-ods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+figure.media-ods img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}

@@ -486,5 +486,21 @@ window.NEWS_DATA = [
     "excerpt": "Quartas de final terminam e semifinais da Copa do mundo estão definidas. Os jogos das quartas de final aconteceram nesta última semana e definiram os quatro semifinalistas da Copa do Mundo de 2026. França x Marrocos Na reedição da semifinal da última Copa do…",
     "author": "@G.abbsp",
     "category": "Esportes"
+  },
+  {
+    "title": "Você sabia que existem ONGs em que tem focos nos vovôs e vovós da região?",
+    "slug": "voce-sabia-que-existem-ongs-em-que-tem-focos-nos-vovos-e-vovos-da-regiao.html",
+    "image": "voce-sabia-que-existem-ongs-em-que-tem-focos-nos-vovos-e-vovos-da-regiao-capa.jpeg",
+    "excerpt": "Você sabia que existem ONGs em que tem focos nos vovôs e vovós da região? Conheça a Instituição Dra. Izumi Watanabe e saiba mais! Sendo uma das famílias mais antigas da região do Cachoeirinha, a família Watanabe possui uma loja de construção de materiais. A...",
+    "author": "@Dino_raaaawr",
+    "category": "Brasil"
+  },
+  {
+    "title": "A privatização das linhas da CPTM começará a ser assistida pelos próximos 90 dias",
+    "slug": "a-privatizacao-das-linhas-da-cptm-comecara-a-ser-assistida-pelos-proximos-90-dias.html",
+    "image": "a-privatizacao-das-linhas-da-cptm-comecara-a-ser-assistida-pelos-proximos-90-dias-1.jpg",
+    "excerpt": "A privatização das linhas da CPTM começará a ser assistida pelos próximos 90 dias Com as transações de comando sendo iniciada em março de 2025, a concessionária passou a ter 100% das operações em julho desse ano. Contudo, o que mais choca o público não foi…",
+    "author": "@Dino_raaaawr",
+    "category": "Brasil"
   }
 ];
