@@ -470,5 +470,21 @@ window.NEWS_DATA = [
     "excerpt": "Oque está acontecendo no Afeganistão O cenário atual no Afeganistão exige atenção e profunda reflexão. Muitas vezes, as dificuldades cotidianas de nossa rotina nos impedem de enxergar crises humanitárias extremas que ocorrem simultaneamente pelo mundo. Ao…",
     "author": "@li_yamauti",
     "category": "Mundo"
+  },
+  {
+    "title": "“Michael” chega a US$ 1 bilhão de bilheteria e se torna a maior cinebiografia da história",
+    "slug": "michael-chega-a-us-1-bilhao-de-bilheteria-e-se-torna-a-maior-cinebiografia-da-historia.html",
+    "image": "michael-chega-a-us-1-bilhao-de-bilheteria-e-se-torna-a-maior-cinebiografia-da-historia-1.jpg",
+    "excerpt": "“Michael” chega a US$ 1 bilhão de bilheteria e se torna a maior cinebiografia da história Após anos de espera, a cinebiografia do Rei do Pop finalmente chega aos cinemas para contar a história de vida de Michael Jackson. O longa alcançou um feito histórico ao…",
+    "author": "@G.abbsp",
+    "category": "Cultura"
+  },
+  {
+    "title": "Quartas de final terminam e semifinais da Copa do mundo estão definidas.",
+    "slug": "quartas-de-final-terminam-e-semifinais-da-copa-do-mundo-estao-definidas.html",
+    "image": "quartas-de-final-terminam-e-semifinais-da-copa-do-mundo-estao-definidas-1.jpg",
+    "excerpt": "Quartas de final terminam e semifinais da Copa do mundo estão definidas. Os jogos das quartas de final aconteceram nesta última semana e definiram os quatro semifinalistas da Copa do Mundo de 2026. França x Marrocos Na reedição da semifinal da última Copa do…",
+    "author": "@G.abbsp",
+    "category": "Esportes"
   }
 ];
