@@ -2331,7 +2331,7 @@ class GeradorNoticias:
                 imagens_extras
             )
 
-            conteudo_html += galeri
+            conteudo_html += galeria
 
 
         materia.excerpt = (
