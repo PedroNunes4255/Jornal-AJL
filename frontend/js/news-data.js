@@ -534,5 +534,13 @@ window.NEWS_DATA = [
     "excerpt": "Fim da novela! Real Madrid renova com Vinícius Júnior até 2032 e deixa Arsenal de mãos vazias Depois de meses de negociações, rumores e pressão por todos os lados, Vinícius Júnior decidiu continuar no Real Madrid. O camisa 7 renovou seu contrato em 6 de…",
     "author": "@Gab.bsp",
     "category": "Esportes"
+  },
+  {
+    "title": "Discord é obrigado a desativar algumas funções pela ANPD, entenda o caso",
+    "slug": "discord-e-obrigado-a-desativar-algumas-funcoes-pela-anpd-entenda-o-caso.html",
+    "image": "discord-e-obrigado-a-desativar-algumas-funcoes-pela-anpd-entenda-o-caso-1.jpg",
+    "excerpt": "Discord é obrigado a desativar algumas funções pela ANPD, entenda o caso Após casos severos de crimes cibernéticos, a plataforma Discord foi acionada pela ANPD (Autoridade Nacional de Proteção de Dados), levando um ultimato para desativar a ação “Go Live”,…",
+    "author": "@Dino_raaaawr",
+    "category": "Brasil"
   }
 ];
