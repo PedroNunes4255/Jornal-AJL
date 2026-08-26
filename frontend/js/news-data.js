@@ -502,5 +502,29 @@ window.NEWS_DATA = [
     "excerpt": "A privatização das linhas da CPTM começará a ser assistida pelos próximos 90 dias Com as transações de comando sendo iniciada em março de 2025, a concessionária passou a ter 100% das operações em julho desse ano. Contudo, o que mais choca o público não foi…",
     "author": "@Dino_raaaawr",
     "category": "Brasil"
+  },
+  {
+    "title": "Os Dois Lados da Moeda: O Impacto Científico e Estatístico do Namoro na Adolescência",
+    "slug": "os-dois-lados-da-moeda-o-impacto-cientifico-e-estatistico-do-namoro-na-adolescencia.html",
+    "image": "os-dois-lados-da-moeda-o-impacto-cientifico-e-estatistico-do-namoro-na-adolescencia.jpeg",
+    "excerpt": "Os Dois Lados da Moeda: O Impacto Científico e Estatístico do Namoro na Adolescência Analisar o namoro na adolescência exige olhar para além das expectativas românticas e focar em dados reais vindos da psicologia, da neurociência e da estatística. O impacto…",
+    "author": "@li_yamauti",
+    "category": "Escola"
+  },
+  {
+    "title": "Setembro Amarelo: Conversar sobre bem-estar mental é também zelar pela vida",
+    "slug": "setembro-amarelo-conversar-sobre-bem-estar-mental-e-tambem-zelar-pela-vida.html",
+    "image": "setembro-amarelo-conversar-sobre-bem-estar-mental-e-tambem-zelar-pela-vida-1.jpg",
+    "excerpt": "Setembro Amarelo: Conversar sobre bem-estar mental é também zelar pela vida Em setembro, a iniciativa “Setembro Amarelo” destaca o quanto é crucial a atenção à saúde da mente e a prevenção contra o suicídio. O objetivo é estimular conversas, desmistificar…",
+    "author": "@v9xgury",
+    "category": "Escola"
+  },
+  {
+    "title": "Você sabe o que cada cargo da República do Brasil representa?",
+    "slug": "voce-sabe-o-que-cada-cargo-da-republica-do-brasil-representa.html",
+    "image": "voce-sabe-o-que-cada-cargo-da-republica-do-brasil-representa-1.jpg",
+    "excerpt": "Você sabe o que cada cargo da República do Brasil representa? Com as eleições se aproximando, algo que não deixamos de pensar é: o pessoal com “poder maior” realmente está fazendo a sua parte? Para conseguir responder isso, precisamos saber que o Brasil é…",
+    "author": "@dino_raaaawr",
+    "category": "Brasil"
   }
 ];
