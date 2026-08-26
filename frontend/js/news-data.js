@@ -526,5 +526,13 @@ window.NEWS_DATA = [
     "excerpt": "Você sabe o que cada cargo da República do Brasil representa? Com as eleições se aproximando, algo que não deixamos de pensar é: o pessoal com “poder maior” realmente está fazendo a sua parte? Para conseguir responder isso, precisamos saber que o Brasil é…",
     "author": "@dino_raaaawr",
     "category": "Brasil"
+  },
+  {
+    "title": "Fim da novela! Real Madrid renova com Vinícius Júnior até 2032 e deixa Arsenal de mãos vazias",
+    "slug": "fim-da-novela-real-madrid-renova-com-vinicius-junior-ate-2032-e-deixa-arsenal-de-maos-vazias.html",
+    "image": "fim-da-novela-real-madrid-renova-com-vinicius-junior-ate-2032-e-deixa-arsenal-de-maos-vazias.jpeg",
+    "excerpt": "Fim da novela! Real Madrid renova com Vinícius Júnior até 2032 e deixa Arsenal de mãos vazias Depois de meses de negociações, rumores e pressão por todos os lados, Vinícius Júnior decidiu continuar no Real Madrid. O camisa 7 renovou seu contrato em 6 de…",
+    "author": "@Gab.bsp",
+    "category": "Esportes"
   }
 ];
