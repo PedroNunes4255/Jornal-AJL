@@ -555,7 +555,7 @@ window.NEWS_DATA = [
     "title": "Um novo dia para o amigo da vizinhança?",
     "slug": "um-novo-dia-para-o-amigo-da-vizinhanca.html",
     "image": "um-novo-dia-para-o-amigo-da-vizinhanca-1.jpg",
-    "excerpt": "Um novo dia para o amigo da vizinhança? Por: @_ymariane No dia 29 de julho deste ano, estreou nos cinemas brasileiros o filme \"Homem-Aranha: Um Novo Dia\". O filme arrecadou US$ 2,33 bilhões globalmente, se tornando a terceira maior bilheteria da história do…",
+    "excerpt": "Um novo dia para o amigo da vizinhança? No dia 29 de julho deste ano, estreou nos cinemas brasileiros o filme \"Homem-Aranha: Um Novo Dia\". O filme arrecadou US$ 2,33 bilhões globalmente, se tornando a terceira maior bilheteria da história do…",
     "author": "@_ymariane",
     "category": "Cultura"
   }
