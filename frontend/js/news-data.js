@@ -542,5 +542,21 @@ window.NEWS_DATA = [
     "excerpt": "Discord é obrigado a desativar algumas funções pela ANPD, entenda o caso Após casos severos de crimes cibernéticos, a plataforma Discord foi acionada pela ANPD (Autoridade Nacional de Proteção de Dados), levando um ultimato para desativar a ação “Go Live”,…",
     "author": "@Dino_raaaawr",
     "category": "Brasil"
+  },
+  {
+    "title": "O romance distópico \"O Conto da Aia\"",
+    "slug": "o-romance-distopico-o-conto-da-aia.html",
+    "image": "o-romance-distopico-o-conto-da-aia-1.jpg",
+    "excerpt": "O romance distópico \"O Conto da Aia\", escrito por Margaret Atwood, chocou o mundo ao apresentar Gilead: uma teocracia totalitária onde as mulheres perderam todos os seus direitos civis, identidades e autonomia sobre os próprios corpos. No entanto, para…",
+    "author": "@li_yamauti",
+    "category": "Cultura"
+  },
+  {
+    "title": "Um novo dia para o amigo da vizinhança?",
+    "slug": "um-novo-dia-para-o-amigo-da-vizinhanca.html",
+    "image": "um-novo-dia-para-o-amigo-da-vizinhanca-1.jpg",
+    "excerpt": "Um novo dia para o amigo da vizinhança? Por: @_ymariane No dia 29 de julho deste ano, estreou nos cinemas brasileiros o filme \"Homem-Aranha: Um Novo Dia\". O filme arrecadou US$ 2,33 bilhões globalmente, se tornando a terceira maior bilheteria da história do…",
+    "author": "@_ymariane",
+    "category": "Cultura"
   }
 ];
