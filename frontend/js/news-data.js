@@ -558,5 +558,29 @@ window.NEWS_DATA = [
     "excerpt": "Um novo dia para o amigo da vizinhança? No dia 29 de julho deste ano, estreou nos cinemas brasileiros o filme \"Homem-Aranha: Um Novo Dia\". O filme arrecadou US$ 2,33 bilhões globalmente, se tornando a terceira maior bilheteria da história do…",
     "author": "@_ymariane",
     "category": "Cultura"
+  },
+  {
+    "title": "Racismo nas escolas: um problema que precisa ser enfrentado",
+    "slug": "racismo-nas-escolas-um-problema-que-precisa-ser-enfrentado.html",
+    "image": "racismo-nas-escolas-um-problema-que-precisa-ser-enfrentado-1.jpg",
+    "excerpt": "Racismo nas escolas: um problema que precisa ser enfrentado O racismo ainda está presente no ambiente escolar e pode aparecer de diferentes formas, como em apelidos ofensivos, comentários preconceituosos, exclusão de estudantes e discriminação por causa da…",
+    "author": "@v9xgury",
+    "category": "Escola"
+  },
+  {
+    "title": "Com o avanço da tecnologia e área digital, o Estatuto Digital da Criança e do Adolescente se vê em um marco jurídico essencial para a proteção",
+    "slug": "com-o-avanco-da-tecnologia-e-area-digital-o-estatuto-digital-da-crianca-e-do-adolescente-se-ve-em-um-marco-juridico-essencial-para-a-protecao.html",
+    "image": "com-o-avanco-da-tecnologia-e-area-digital-o-estatuto-digital-da-crianca-e-do-adolescente-se-ve-em-um-marco-juridico-essencial-para-a-protecao-1.jpg",
+    "excerpt": "Com o avanço da tecnologia e área digital, o Estatuto Digital da Criança e do Adolescente se vê em um marco jurídico essencial para a proteção. A nova legislação responsabiliza o Estado, famílias, sociedade e plataformas pela proteção de crianças e…",
+    "author": "@dino_raaaawr",
+    "category": "Brasil"
+  },
+  {
+    "title": "BTS: dos \"underdogs\" à fama",
+    "slug": "bts-dos-underdogs-a-fama.html",
+    "image": "bts-dos-underdogs-a-fama.jpeg",
+    "excerpt": "BTS: dos \"underdogs\" à fama Tinha tudo para dar errado: uma gravadora quase falida, grupo não conhecido e com título de “azarões” por onde passava, mas ninguém esperava a reviravolta. BTS começou sua carreira em 2013, com sete membros: RM, Jin, SUGA, J-Hope,…",
+    "author": "@dino_raaaawr",
+    "category": "Cultura"
   }
 ];
