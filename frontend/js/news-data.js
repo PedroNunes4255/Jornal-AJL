@@ -582,5 +582,13 @@ window.NEWS_DATA = [
     "excerpt": "BTS: dos \"underdogs\" à fama Tinha tudo para dar errado: uma gravadora quase falida, grupo não conhecido e com título de “azarões” por onde passava, mas ninguém esperava a reviravolta. BTS começou sua carreira em 2013, com sete membros: RM, Jin, SUGA, J-Hope,…",
     "author": "@dino_raaaawr",
     "category": "Cultura"
+  },
+  {
+    "title": "Bienal: o maior evento literário do Brasil",
+    "slug": "bienal-o-maior-evento-literario-do-brasil.html",
+    "image": "bienal-o-maior-evento-literario-do-brasil-1.jpg",
+    "excerpt": "Bienal: o maior evento literário do Brasil Com a 28º edição literária, bienal retorna a São Paulo em setembro, trazendo grandes nomes, entre eles: Lynn Painter, Alice Oseman, Leia Stone, Leonor Carvalho, Iberê Thenório, Raphael Montes, Conceição Evaristo,…",
+    "author": "@Dino_raaaawr",
+    "category": "Cultura"
   }
 ];
