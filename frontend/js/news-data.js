@@ -590,5 +590,21 @@ window.NEWS_DATA = [
     "excerpt": "Com a 28º edição literária, bienal retorna a São Paulo em setembro, trazendo grandes nomes, entre eles: Lynn Painter, Alice Oseman, Leia Stone, Leonor Carvalho, Iberê Thenório, Raphael Montes, Conceição Evaristo,…",
     "author": "@Dino_raaaawr",
     "category": "Cultura"
+  },
+  {
+    "title": "A Evolução do Entretenimento Digital: O Impacto Cultural e Técnico de Grand Theft Auto VI (GTA 6)",
+    "slug": "a-evolucao-do-entretenimento-digital-o-impacto-cultural-e-tecnico-de-grand-theft-auto-vi-gta-6.html",
+    "image": "a-evolucao-do-entretenimento-digital-o-impacto-cultural-e-tecnico-de-grand-theft-auto-vi-gta-6-1.jpg",
+    "excerpt": "O mercado global de jogos eletrônicos está prestes a testemunhar um de seus momentos mais significativos com o iminente lançamento de Grand Theft Auto VI (GTA 6)...",
+    "author": "@Li_yamauti",
+    "category": "Cultura"
+  },
+  {
+    "title": "David, jogador do Vasco, é investigado pela polícia",
+    "slug": "david-jogador-do-vasco-e-investigado-pela-policia.html",
+    "image": "david-jogador-do-vasco-e-investigado-pela-policia-1.jpg",
+    "excerpt": "A polícia encontrou conversas entre o jogador e seu amigo de infância, acusado de tráfico de drogas e tentativa de homicídio...",
+    "author": "@mahriios_",
+    "category": "Esportes"
   }
 ];
