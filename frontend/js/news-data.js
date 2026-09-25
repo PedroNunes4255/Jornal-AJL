@@ -606,5 +606,13 @@ window.NEWS_DATA = [
     "excerpt": "A polícia encontrou conversas entre o jogador e seu amigo de infância, acusado de tráfico de drogas e tentativa de homicídio...",
     "author": "@mahriios_",
     "category": "Esportes"
+  },
+  {
+    "title": "Campanhas antifeministas ganham espaço na internet e preocupam especialistas",
+    "slug": "campanhas-antifeministas-ganham-espaco-na-internet-e-preocupam-especialistas.html",
+    "image": "campanhas-antifeministas-ganham-espaco-na-internet-e-preocupam-especialistas.jpeg",
+    "excerpt": "Nos últimos anos, conteúdos contra o feminismo e contra a igualdade entre homens e mulheres passaram a aparecer com mais frequência nas redes sociais. Muitas vezes, essas mensagens são apresentadas como memes, piadas, vídeos de “motivação” ou opiniões...",
+    "author": "@v9xgury",
+    "category": "Brasil"
   }
 ];
