@@ -614,5 +614,13 @@ window.NEWS_DATA = [
     "excerpt": "Nos últimos anos, conteúdos contra o feminismo e contra a igualdade entre homens e mulheres passaram a aparecer com mais frequência nas redes sociais. Muitas vezes, essas mensagens são apresentadas como memes, piadas, vídeos de “motivação” ou opiniões...",
     "author": "@v9xgury",
     "category": "Brasil"
+  },
+  {
+    "title": "Corinthians vive fase assombrosa após ser eliminado na Libertadores e ser goleado em clássico",
+    "slug": "corinthians-vive-fase-assombrosa-apos-ser-eliminado-na-libertadores-e-ser-goleado-em-classico.html",
+    "image": "corinthians-vive-fase-assombrosa-apos-ser-eliminado-na-libertadores-e-ser-goleado-em-classico-1.jpg",
+    "excerpt": "O Corinthians está em uma das piores fases de sua história, um ano que começava bem. Após o título da Supercopa do Brasil em cima do Flamengo, foi escancarando os problemas do elenco e da direção do clube.",
+    "author": "@G.abbsp",
+    "category": "Esportes"
   }
 ];
