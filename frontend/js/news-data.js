@@ -630,5 +630,13 @@ window.NEWS_DATA = [
     "excerpt": "Já verificaram onde irão fazer o Enem??O que é e qual é o objetivo? O Exame Nacional do Ensino Médio, também conhecido como Enem, foi criado em 1998 pelo Governo Federal (por meio do MEC e aplicado pelo Inep), o exame foi inicialmente desenvolvido para…",
     "author": "@escola_antonio_jose_leite_of",
     "category": "Brasil"
+  },
+  {
+    "title": "\"Palhaços do Terror\"",
+    "slug": "palhacos-do-terror.html",
+    "image": "palhacos-do-terror-1.jpg",
+    "excerpt": "\"Palhaços do Terror\" Recentemente surgiu nas redes sociais, grupos de palhaços - não só pela capital - que ficam rondando as ruas pela madrugada. Os tão denominados \"palhaços do terror\" vem atormentando moradores de São Paulo, Rio de Janeiro, Bahia e Maranhão…",
+    "author": "@dino_raaaawr",
+    "category": "Brasil"
   }
 ];
