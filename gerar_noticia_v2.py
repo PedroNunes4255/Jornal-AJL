@@ -22,7 +22,7 @@ PASTA_IMG = os.path.join(PASTA_FRONTEND, "IMG")
 
 NEWS_DATA_ARQUIVO = os.path.join(PASTA_JS, "news-data.js")
 
-AUTOR_PADRAO = "@jornalajl"
+AUTOR_PADRAO = "@escola_antonio_jose_leite_of"
 IMAGEM_PADRAO = "default.jpg"
 
 CATEGORIAS = {
