@@ -628,7 +628,7 @@ window.NEWS_DATA = [
     "slug": "ja-verificaram-onde-irao-fazer-o-enemo-que-e-e-qual-e-o-objetivo.html",
     "image": "ja-verificaram-onde-irao-fazer-o-enemo-que-e-e-qual-e-o-objetivo.jpeg",
     "excerpt": "Já verificaram onde irão fazer o Enem??O que é e qual é o objetivo? O Exame Nacional do Ensino Médio, também conhecido como Enem, foi criado em 1998 pelo Governo Federal (por meio do MEC e aplicado pelo Inep), o exame foi inicialmente desenvolvido para…",
-    "author": "@escola_antonio_jose_leite_of",
+    "author": "@kety__vilasboas",
     "category": "Brasil"
   },
   {
